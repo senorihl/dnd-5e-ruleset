@@ -1,0 +1,6 @@
+[submodule "modules/ruleset-wrapper"]
+	path = modules/ruleset-wrapper
+	url = https://github.com/morepurplemorebetter/MPMBs-Character-Record-Sheet.git
+[submodule "modules/ruleset-collection"]
+	path = modules/ruleset-collection
+	url = https://github.com/safety-orange/Imports-for-MPMB-s-Character-Sheet.git
