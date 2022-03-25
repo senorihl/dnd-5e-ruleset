@@ -1,0 +1,37 @@
+title: D&D 5th — Ruleset
+email: senorigl@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  A compilation of all rules for Dungeons & Dragons 5th edition
+baseurl: "/dnd-5e-ruleset" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: senorihl
+github_username: senorihl
+
+# Build settings
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Define Jekyll collections
+collections:
+  # Define a collection named "docs", its documents reside in the "_docs" directory
+  races:
+    permalink: "/:collection/:slug/"
+    output: true
+
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    # Reference the "docs" collection
+    races:
+      # Give the collection a name
+      name: Races
+
+exclude:
+  - "generator/"
+  - "node_modules/"
+
+footer_content: 'Proposed by <a href="https://github.com/senorihl" target=_blank>Senorihl</a>. Distributed <a href="https://github.com/senorihl/dnd-5e-ruleset/tree/main/LICENSE.txt">Unlicensed.</a>'

@@ -1,0 +1,34 @@
+{
+  "name": "dnd-5th-ruleset",
+  "version": "0.0.1",
+  "description": "A package exporting rules for D&D 5e edition based on https://github.com/safety-orange/Imports-for-MPMB-s-Character-Sheet/ and https://github.com/morepurplemorebetter/MPMBs-Character-Record-Sheet/",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
+  "browser": "lib/index.umd.js",
+  "typings": "lib/index.d.ts",
+  "repository": "https://github.com/senorihl/dnd-5e-ruleset.git",
+  "author": "senorihl <senorihl@gmail.com>",
+  "license": "Unlicense",
+  "scripts": {
+    "build": "rollup -c",
+    "prebuild": "node create-ruleset.js",
+    "predev": "node create-ruleset.js",
+    "dev": "concurrently --kill-others \"rollup -c -w\" \"yarn tsc -w --preserveWatchOutput\" \"nodemon --watch dist/create-docs.js --watch dist/generator dist/create-docs.js\" \"yarn --cwd docs jekyll\"",
+    "predocs": "tsc",
+    "docs": "node dist/create-docs.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/register": "^7.17.7",
+    "@rollup/plugin-commonjs": "^21.0.2",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.1",
+    "rollup": "^2.70.1",
+    "rollup-plugin-dts": "^4.2.0",
+    "tosource": "^2.0.0-alpha.3",
+    "typescript": "^4.6.3"
+  }
+}
