@@ -28,3 +28,4 @@ description: D&D 5th edition Warforged details
 ## Proficiencies
 
 - **Languages:** Common, 1 of your choice
+- **Tools:** Any tool

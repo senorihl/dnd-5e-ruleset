@@ -24,3 +24,4 @@ description: D&D 5th edition Half-elf variant details
 ## Proficiencies
 
 - **Languages:** Common, Elvish, 1 of your choice
+- **Weapons:** longsword, shortsword, longbow, shortbow

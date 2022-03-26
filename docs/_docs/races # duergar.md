@@ -28,3 +28,5 @@ description: D&D 5th edition Duergar details
 ## Proficiencies
 
 - **Languages:** Common, Dwarvish, Undercommon
+- **Tools:** Smith, brewer, or mason tools
+- **Weapons:** battleaxe, handaxe, warhammer, light hammer

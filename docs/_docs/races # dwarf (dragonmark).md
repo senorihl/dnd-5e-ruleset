@@ -28,3 +28,5 @@ description: D&D 5th edition Dwarf (dragonmark) details
 ## Proficiencies
 
 - **Languages:** Common, Dwarvish
+- **Tools:** Smith, brewer, or mason tools
+- **Weapons:** battleaxe, handaxe, warhammer, light hammer

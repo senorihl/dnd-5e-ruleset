@@ -58,6 +58,10 @@ description: D&D 5th edition Half-elf details
 > #### Traits
 > 
 > 
+> #### Proficiencies
+> 
+> - **Weapons:** longsword, shortsword, longbow, shortbow
+> 
 > ### [Half-wood elf]({{ '/races/' | relative_url }}{{ 'Half-wood elf' | slugify }}/)
 > 
 > <small>From <a target="_blank" href="https://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide">Sword Coast Adventure Guide</a> (p. 116)</small>

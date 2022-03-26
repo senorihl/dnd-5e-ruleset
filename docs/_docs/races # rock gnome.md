@@ -27,3 +27,4 @@ description: D&D 5th edition Rock gnome details
 ## Proficiencies
 
 - **Languages:** Common, Gnomish
+- **Tools:** Tinker's tools

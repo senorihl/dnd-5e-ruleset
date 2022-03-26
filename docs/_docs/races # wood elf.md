@@ -26,3 +26,4 @@ description: D&D 5th edition Wood elf details
 ## Proficiencies
 
 - **Languages:** Common, Elvish
+- **Weapons:** longsword, shortsword, longbow, shortbow

@@ -27,3 +27,4 @@ description: D&D 5th edition Hobgoblin details
 ## Proficiencies
 
 - **Languages:** Common, Goblin
+- **Armors:** light

@@ -24,6 +24,8 @@ description: D&D 5th edition Githyanki details
 ## Proficiencies
 
 - **Languages:** Common, Gith, 1 of your choice
+- **Weapons:** shortsword, longsword, greatsword
+- **Armors:** light, medium
 
 ## Variants
 

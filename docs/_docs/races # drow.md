@@ -27,3 +27,4 @@ description: D&D 5th edition Drow details
 ## Proficiencies
 
 - **Languages:** Common, Elvish
+- **Weapons:** rapier, shortsword, hand crossbow

@@ -8,8 +8,8 @@ const filename = path.resolve(
   __dirname.replace("dist/", ""),
   "..",
   "docs",
-  "_races",
-  `index.md`
+  "_docs",
+  `races # index.md`
 );
 
 console.group("Races");
@@ -144,7 +144,6 @@ description: D&D 5th edition ${race.name} details
     const named = /^([^\:]+)\:\s+(.*)$/.exec(line);
     if (named) {
       prev = named[1];
-      console.log(prev);
       traitsObj[prev] = named[2];
     } else if (prev) {
       traitsObj[prev] += " " + line;
@@ -157,24 +156,67 @@ description: D&D 5th edition ${race.name} details
     })
   );
 
-  if (race.languageProfs || race.toolProfs || race.weaponprofs) {
+  if (
+    race.languageProfs ||
+    race.toolProfs ||
+    race.weaponProfs ||
+    race.armorProfs
+  ) {
     parts.push("\n## Proficiencies\n");
-  }
 
-  if (race.languageProfs) {
-    parts.push(
-      "- **Languages:** " +
-        race.languageProfs
-          .map((prof) => {
-            return typeof prof === "string"
-              ? prof
-              : prof > 0
-              ? `${prof} of your choice`
-              : "";
-          })
-          .filter((lang) => !!lang)
-          .join(", ")
-    );
+    if (race.languageProfs) {
+      parts.push(
+        "- **Languages:** " +
+          race.languageProfs
+            .map((prof) => {
+              return typeof prof === "string"
+                ? prof
+                : prof > 0
+                ? `${prof} of your choice`
+                : "";
+            })
+            .filter((lang) => !!lang)
+            .join(", ")
+      );
+    }
+
+    if (race.toolProfs) {
+      parts.push(
+        "- **Tools:** " +
+          race.toolProfs
+            .map((prof) => {
+              return typeof prof === "string" ? prof : prof[0];
+            })
+            .filter((tool) => !!tool)
+            .join(", ")
+      );
+    }
+
+    if (race.weaponProfs) {
+      const [simple, martial, other] = race.weaponProfs;
+
+      parts.push(
+        "- **Weapons:** " +
+          [simple ? "simple" : null, martial ? "martial" : null, ...other]
+            .filter((tool) => !!tool)
+            .join(", ")
+      );
+    }
+
+    if (race.armorProfs) {
+      const [light, medium, heavy, shields] = race.armorProfs;
+      parts.push(
+        "- **Armors:** " +
+          [
+            light ? "light" : null,
+            medium ? "medium" : null,
+            heavy ? "heavy" : null,
+            shields ? "shields" : null,
+          ]
+            .filter((tool) => !!tool)
+            .join(", ")
+      );
+    }
   }
 
   if (race.variants && race.variants.length > 0) {
@@ -222,8 +264,8 @@ description: D&D 5th edition ${race.name} details
       __dirname.replace("dist/", ""),
       "..",
       "docs",
-      "_races",
-      `${race.name}.md`
+      "_docs",
+      `races # ${race.name.toLowerCase()}.md`
     );
     fs.writeFileSync(filename, content);
   } else {

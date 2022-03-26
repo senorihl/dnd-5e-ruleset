@@ -24,3 +24,6 @@ description: D&D 5th edition Mountain dwarf details
 ## Proficiencies
 
 - **Languages:** Common, Dwarvish
+- **Tools:** Smith, brewer, or mason tools
+- **Weapons:** battleaxe, handaxe, warhammer, light hammer
+- **Armors:** light, medium

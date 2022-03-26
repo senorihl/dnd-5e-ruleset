@@ -29,3 +29,4 @@ description: D&D 5th edition Satyr details
 ## Proficiencies
 
 - **Languages:** Common, Sylvan
+- **Tools:** Musical instrument

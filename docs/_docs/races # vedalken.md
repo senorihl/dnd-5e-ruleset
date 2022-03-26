@@ -27,3 +27,4 @@ description: D&D 5th edition Vedalken details
 ## Proficiencies
 
 - **Languages:** Common, Vedalken, 1 of your choice
+- **Tools:** Any tool

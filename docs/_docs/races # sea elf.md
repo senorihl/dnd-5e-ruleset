@@ -27,3 +27,4 @@ description: D&D 5th edition Sea elf details
 ## Proficiencies
 
 - **Languages:** Common, Elvish, Aquan
+- **Weapons:** spear, trident, light crossbow, net
