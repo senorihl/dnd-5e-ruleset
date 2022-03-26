@@ -1,0 +1,20 @@
+<script async defer>
+    if ('serviceWorker' in navigator) {
+        const registration = navigator.serviceWorker.register(
+            '{{ "worker.js?version=Jx5e-aW0uUsmpiLRCctkEw75a_vrHFnIOo8Quebp9Jk" | relative_url }}',
+            {
+                scope: '{{ "/" | relative_url }}',
+            }
+        ).then(function (registration) {
+            if (registration.installing) {
+                console.log('Service worker installing');
+            } else if (registration.waiting) {
+                console.log('Service worker installed');
+            } else if (registration.active) {
+                console.log('Service worker active');
+            }
+        }).catch(function (error) {
+            console.error("Registration failed with", error)
+        });
+    }
+</script>

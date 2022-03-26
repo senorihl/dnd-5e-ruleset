@@ -9,10 +9,20 @@ layout: home
 
 <h2>Races</h2>
 
-<div class="list-link" style="">
-    {% for race in site.races %}
-    {% if race.title != "Races" and race.grand_parent == nil %}
-    <div class="list-link-item"><a href="{{ race.url | relative_url }}">{{ race.title }}</a></div>
+<div class="list-link">
+    {% for document in site.docs %}
+    {% if document.id contains 'races' and document.title != "Races" and document.grand_parent == nil %}
+    <div class="list-link-item"><a href="{{ document.url | relative_url }}">{{ document.title }}</a></div>
+    {% endif %}
+    {% endfor %}
+</div>
+
+<h2>Classes</h2>
+
+<div class="list-link">
+    {% for document in site.docs %}
+    {% if document.id contains 'classes' and document.title != "Classes" and document.grand_parent == nil %}
+    <div class="list-link-item"><a href="{{ document.url | relative_url }}">{{ document.title }}</a></div>
     {% endif %}
     {% endfor %}
 </div>

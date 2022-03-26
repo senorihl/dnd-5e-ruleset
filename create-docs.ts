@@ -24,3 +24,4 @@ while (file) {
 
 import "./generator/races";
 import "./generator/classes";
+import "./generator/webworker";
