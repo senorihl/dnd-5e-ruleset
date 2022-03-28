@@ -13,29 +13,6 @@ import type {
 import { toSourceString } from "./utils";
 import slugify from "slugify";
 
-const filename = path.resolve(
-  __dirname.replace("dist/", ""),
-  "..",
-  "docs",
-  "_docs",
-  `backgrounds # index.md`
-);
-
-console.group("Backgrounds");
-
-const content = `---
-layout: page
-title: Backgrounds
-description: D&D 5th edition background list
-has_children: true
-nav_order: 3
-permalink: /backgrounds/
----
-# Backgrounds
-`;
-
-fs.writeFileSync(filename, content);
-
 function hasFixedSkills(obj: Background): obj is FixedSkillsBackground {
   return !!(obj as any).skills;
 }
@@ -53,7 +30,6 @@ const buildBackground = (
   emit: boolean = true,
   level: number = 1
 ) => {
-  emit && console.group(background.name);
   let content = "";
 
   const fpath = ["backgrounds"];
@@ -236,15 +212,39 @@ permalink: /${fpath.join("/")}/
     content = content.replace(/^(.*)$/gm, "> $1");
   }
 
-  emit && console.groupEnd();
-
   return content;
 };
 
-const slugs = Object.keys(BackgroundList);
-slugs.forEach((slug, idx) => {
-  const race = BackgroundList[slug];
-  buildBackground({ ...race, slug: slugify(slug) });
-});
+export default function build() {
+  console.group("Backgrounds");
 
-console.groupEnd();
+  const filename = path.resolve(
+    __dirname.replace("dist/", ""),
+    "..",
+    "docs",
+    "_docs",
+    `backgrounds # index.md`
+  );
+
+  const content = `---
+layout: page
+title: Backgrounds
+description: D&D 5th edition background list
+has_children: true
+nav_order: 3
+permalink: /backgrounds/
+---
+# Backgrounds
+`;
+
+  fs.writeFileSync(filename, content);
+
+  const slugs = Object.keys(BackgroundList);
+
+  slugs.forEach((slug, idx) => {
+    const race = BackgroundList[slug];
+    buildBackground({ ...race, slug: slugify(slug) });
+  });
+
+  console.groupEnd();
+}

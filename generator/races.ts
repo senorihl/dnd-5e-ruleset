@@ -6,29 +6,6 @@ import type { Race, SourceLocation, Source } from "dnd-5th-ruleset";
 import { toSourceString } from "./utils";
 import slugify from "slugify";
 
-const filename = path.resolve(
-  __dirname.replace("dist/", ""),
-  "..",
-  "docs",
-  "_docs",
-  `races # index.md`
-);
-
-console.group("Races");
-
-const content = `---
-layout: page
-title: Races
-description: D&D 5th edition race list
-has_children: true
-nav_order: 1
-permalink: /races/
----
-# Races
-`;
-
-fs.writeFileSync(filename, content);
-
 const buildRace = (
   race: Race & {
     parent?: string;
@@ -40,7 +17,6 @@ const buildRace = (
   emit: boolean = true,
   level: number = 1
 ) => {
-  emit && console.group(race.name);
   let content = "";
   const fpath = ["races"];
   race.parentSlug && fpath.push(race.parentSlug);
@@ -252,24 +228,47 @@ permalink: /${fpath.join("/")}/
     });
   }
 
-  emit && console.groupEnd();
-
   return content;
 };
 
-const slugs = Object.keys(RaceList);
-slugs
-  .sort((slugA, slugB) => {
-    const raceA = RaceList[slugA];
-    const raceB = RaceList[slugB];
-    return (raceA.sortname || raceA.name).toLowerCase() >
-      (raceB.sortname || raceB.name).toLowerCase()
-      ? 1
-      : 0;
-  })
-  .forEach((slug, idx) => {
-    const race = RaceList[slug];
-    buildRace({ ...race, slug: slugify(slug) }, idx);
-  });
+export default function build() {
+  console.group("Races");
 
-console.groupEnd();
+  const filename = path.resolve(
+    __dirname.replace("dist/", ""),
+    "..",
+    "docs",
+    "_docs",
+    `races # index.md`
+  );
+
+  const content = `---
+layout: page
+title: Races
+description: D&D 5th edition race list
+has_children: true
+nav_order: 1
+permalink: /races/
+---
+# Races
+`;
+
+  fs.writeFileSync(filename, content);
+
+  const slugs = Object.keys(RaceList);
+  slugs
+    .sort((slugA, slugB) => {
+      const raceA = RaceList[slugA];
+      const raceB = RaceList[slugB];
+      return (raceA.sortname || raceA.name).toLowerCase() >
+        (raceB.sortname || raceB.name).toLowerCase()
+        ? 1
+        : 0;
+    })
+    .forEach((slug, idx) => {
+      const race = RaceList[slug];
+      buildRace({ ...race, slug: slugify(slug) }, idx);
+    });
+
+  console.groupEnd();
+}

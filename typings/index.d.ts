@@ -6,6 +6,8 @@ import { Race } from "./race";
 export * from "./race";
 import { Source } from "./source";
 export * from "./source";
+import { Spell } from "./spell";
+export * from "./spell";
 declare module "dnd-5th-ruleset" {
   const SourceList: { [key: string]: Source };
   const RaceList: { [key: string]: Race };
@@ -15,4 +17,5 @@ declare module "dnd-5th-ruleset" {
   const BackgroundList: { [key: string]: Background };
   const BackgroundSubList: { [key: string]: Background };
   const BackgroundFeatureList: { [key: string]: BackgroundFeature };
+  const SpellsList: { [key: string]: Spell };
 }

@@ -3,6 +3,10 @@ require("@babel/register");
 import path from "path";
 import fs from "fs";
 import { program } from "commander";
+import races from "./generator/races";
+import classes from "./generator/classes";
+import backgrounds from "./generator/backgrounds";
+import spells from "./generator/spells";
 
 const docsDirectoryPath = path.resolve(
   __dirname.replace("dist/", ""),
@@ -20,6 +24,7 @@ program.option(
 program.option("--no-races", "Prevents races generation");
 program.option("--no-classes", "Prevents classes generation");
 program.option("--no-backgrounds", "Prevents backgrounds generation");
+program.option("--no-spells", "Prevents spells generation");
 
 program.parse();
 
@@ -40,7 +45,8 @@ if (options.rm === true) {
   }
 }
 
-options.races === true && require("./generator/races");
-options.classes === true && require("./generator/classes");
-options.backgrounds === true && require("./generator/backgrounds");
+options.races === true && races();
+options.classes === true && classes();
+options.backgrounds === true && backgrounds();
+options.spells === true && spells();
 require("./generator/webworker");

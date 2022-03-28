@@ -10,39 +10,15 @@ import type {
 } from "dnd-5th-ruleset";
 import { toSourceString } from "./utils";
 
-const filename = path.resolve(
-  __dirname.replace("dist/", ""),
-  "..",
-  "docs",
-  "_docs",
-  `classes # index.md`
-);
-
 function featIsChoice(obj: ClassFeature): obj is ChoiceClassFeature {
   return !!(obj as any).choices;
 }
-
-console.group("Classes");
-
-const content = `---
-layout: page
-title: Classes
-description: D&D 5th edition class list
-has_children: true
-nav_order: 2
-permalink: /classes/
----
-# Classes
-`;
-
-fs.writeFileSync(filename, content);
 
 const buildClass = (
   cclass: Class & { parent?: string; parentSlug?: string; slug: string },
   emit: boolean = true,
   level: number = 1
 ) => {
-  emit && console.group(cclass.name);
   let content = "";
 
   const fpath = ["classes"];
@@ -274,15 +250,38 @@ permalink: /${fpath.join("/")}/
     content = content.replace(/^(.*)$/gm, "> $1");
   }
 
-  emit && console.groupEnd();
-
   return content;
 };
 
-const slugs = Object.keys(ClassList);
-slugs.forEach((slug, idx) => {
-  const race = ClassList[slug];
-  buildClass({ ...race, slug: slugify(slug) });
-});
+export default function build() {
+  console.group("Classes");
 
-console.groupEnd();
+  const filename = path.resolve(
+    __dirname.replace("dist/", ""),
+    "..",
+    "docs",
+    "_docs",
+    `classes # index.md`
+  );
+
+  const content = `---
+layout: page
+title: Classes
+description: D&D 5th edition class list
+has_children: true
+nav_order: 2
+permalink: /classes/
+---
+# Classes
+`;
+
+  fs.writeFileSync(filename, content);
+
+  const slugs = Object.keys(ClassList);
+  slugs.forEach((slug, idx) => {
+    const race = ClassList[slug];
+    buildClass({ ...race, slug: slugify(slug) });
+  });
+
+  console.groupEnd();
+}
