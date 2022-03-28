@@ -29,14 +29,8 @@ const buildClass = (
     content += `---
 layout: page
 title: ${cclass.name}
-parent: ${cclass.parent || "Classes"}
-${!!cclass.parent ? "grand_parent: Classes" : ""}
-${cclass.subclasses && cclass.subclasses.length > 0 ? "has_children: true" : ""}
-${
-  cclass.subclasses && cclass.subclasses.length > 0
-    ? `toc_name: ${cclass.subclasses[0]}`
-    : ""
-}
+parent: ${cclass.parent || "All classes"}
+${!cclass.parent ? "" : "grand_parent: All classes"}
 description: D&D 5th edition ${cclass.name} details
 permalink: /${fpath.join("/")}/
 ---
@@ -221,15 +215,25 @@ permalink: /${fpath.join("/")}/
       const variant = ClassSubList[variantName];
       if (variant) {
         variant.name = variant.subname || `${cclass.name} variant`;
-
-        buildClass({
-          ...cclass,
-          ...variant,
-          parentSlug: cclass.slug,
-          slug: slugify(variantName),
-          subclasses: undefined,
-          parent: cclass.name,
-        });
+        parts.indexOf("\n\n## " + label) === -1 &&
+          parts.push("\n\n## " + label);
+        parts.push("");
+        parts.push("<hr>");
+        parts.push("");
+        parts.push(
+          buildClass(
+            {
+              ...cclass,
+              ...variant,
+              parentSlug: cclass.slug,
+              slug: slugify(variantName, { remove: /[^\w]/g }),
+              subclasses: undefined,
+              parent: cclass.name,
+            },
+            false,
+            level + 1
+          )
+        );
       }
     });
   }
@@ -237,13 +241,16 @@ permalink: /${fpath.join("/")}/
   content += parts.join("\n");
 
   if (emit) {
-    const filename = path.resolve(
+    const dirname = path.resolve(
       __dirname.replace("dist/", ""),
       "..",
       "docs",
-      "_docs",
-      `${fpath.join(" # ")}.md`
+      "_classes"
     );
+    if (!fs.existsSync(dirname)) {
+      fs.mkdirSync(dirname, { recursive: true });
+    }
+    const filename = path.resolve(dirname, `${fpath.slice(1).join(" # ")}.md`);
     fs.writeFileSync(filename, content);
   } else {
     content = content.replace(/^(#+ .*)$/gm, `${"#".repeat(level)}$1`);
@@ -256,31 +263,45 @@ permalink: /${fpath.join("/")}/
 export default function build() {
   console.group("Classes");
 
-  const filename = path.resolve(
-    __dirname.replace("dist/", ""),
-    "..",
-    "docs",
-    "_docs",
-    `classes # index.md`
-  );
+  const slugs = Object.keys(ClassList);
 
   const content = `---
 layout: page
-title: Classes
-description: D&D 5th edition class list
-has_children: true
-nav_order: 2
+title: All classes
+description: D&D 5th edition all classes
 permalink: /classes/
+has_children: true
 ---
-# Classes
+
+# All classes
+
+${slugs
+  .map((slug) => {
+    const race = ClassList[slug];
+    return `- [${race.name}]({{ '/classes/${slugify(slug, {
+      remove: /[^\w]/g,
+    })}/' | relative_url }})`;
+  })
+  .join("\n")}
 `;
 
+  const dirname = path.resolve(
+    __dirname.replace("dist/", ""),
+    "..",
+    "docs",
+    "_classes"
+  );
+
+  if (!fs.existsSync(dirname)) {
+    fs.mkdirSync(dirname, { recursive: true });
+  }
+
+  const filename = path.resolve(dirname, `index.md`);
   fs.writeFileSync(filename, content);
 
-  const slugs = Object.keys(ClassList);
   slugs.forEach((slug, idx) => {
     const race = ClassList[slug];
-    buildClass({ ...race, slug: slugify(slug) });
+    buildClass({ ...race, slug: slugify(slug, { remove: /[^\w]/g }) });
   });
 
   console.groupEnd();

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["es2021"],
+    "module": "ES6",
+    "target": "es2021",
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "outDir": "dist",
+    "paths": {
+      "dnd-5th-ruleset": ["."]
+    }
+  }
+}

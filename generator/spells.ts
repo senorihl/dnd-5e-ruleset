@@ -58,7 +58,6 @@ function buildSpell(
     content += `---
 layout: page
 title: ${spell.name}
-grand_parent: Spells
 parent: ${spell.level > 0 ? `${levelStr} level spells` : "Cantrips"} 
 description: D&D 5th edition ${spell.name} details
 permalink: /${fpath.join("/")}/
@@ -117,7 +116,12 @@ permalink: /${fpath.join("/")}/
     parts.push("");
     parts.push(
       `**Classes:** ${spell.classes
-        ?.map((slug) => `[${ClassList[slug].name}](/classes/${slug}/)`)
+        ?.map(
+          (slug) =>
+            `[${ClassList[slug].name}](/classes/${slugify(slug, {
+              remove: /[^\w]/g,
+            })}/)`
+        )
         .join(", ")}`
     );
   }
@@ -130,13 +134,16 @@ permalink: /${fpath.join("/")}/
   content += parts.join("\n");
 
   if (emit) {
-    const filename = path.resolve(
+    const dirname = path.resolve(
       __dirname.replace("dist/", ""),
       "..",
       "docs",
-      "_docs",
-      `${fpath.join(" # ")}.md`
+      "_spells"
     );
+    if (!fs.existsSync(dirname)) {
+      fs.mkdirSync(dirname, { recursive: true });
+    }
+    const filename = path.resolve(dirname, `${fpath.slice(1).join(" # ")}.md`);
     fs.writeFileSync(filename, content);
   } else {
     content = content.replace(/^(#+ .*)$/gm, `${"#".repeat(level)}$1`);
@@ -144,6 +151,8 @@ permalink: /${fpath.join("/")}/
   }
 
   emit && console.groupEnd();
+
+  return content;
 }
 
 function buildLevel(level: number) {
@@ -162,14 +171,14 @@ function buildLevel(level: number) {
     __dirname.replace("dist/", ""),
     "..",
     "docs",
-    "_docs",
-    `spells # ${levelStr} level.md`
+    "_spells",
+    `${levelStr} level.md`
   );
 
-  const content = `---
+  let content = `---
 layout: page
 title: ${level > 0 ? `${levelStr} level spells` : "Cantrips"} 
-parent: Spells
+nav_order: ${level + 1} 
 description: D&D 5th edition spell list of ${level} level
 has_children: true
 permalink: /spells/${levelStr}/
@@ -177,44 +186,27 @@ permalink: /spells/${levelStr}/
 # ${level > 0 ? `${levelStr} level spells` : "Cantrips"} 
 `;
 
+  slugs
+    .map((slug) => ({ spell: SpellsList[slug], slug }))
+    .forEach(({ spell, slug }) => {
+      if (spell.level === level) {
+        content += `
+
+<hr>
+
+${buildSpell({ ...spell, slug }, false, 1)}`;
+      }
+    });
+
   fs.writeFileSync(filename, content);
 }
 
 export default function build() {
   console.group("Spells");
 
-  const filename = path.resolve(
-    __dirname.replace("dist/", ""),
-    "..",
-    "docs",
-    "_docs",
-    `spells # index.md`
-  );
-
-  const content = `---
-layout: page
-title: Spells
-description: D&D 5th edition spell list
-has_children: true
-nav_order: 4
-permalink: /spells/
----
-# Spells
-`;
-
-  fs.writeFileSync(filename, content);
-
   Array.from({ length: 10 }, (_, i) => i).forEach((level) => {
     buildLevel(level);
   });
-
-  slugs.forEach((slug, idx) => {
-    const spell = SpellsList[slug];
-    buildSpell({ ...spell, slug: slugify(slug) });
-  });
-  const levels = slugs
-    .map((slug, idx) => SpellsList[slug].level)
-    .filter((level, idx, self) => self.indexOf(level) === idx);
 
   console.groupEnd();
 }

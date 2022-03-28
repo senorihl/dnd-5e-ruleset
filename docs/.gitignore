@@ -4,7 +4,3 @@ _site
 .jekyll-metadata
 vendor
 node_modules
-_races/*
-!_races/.gitkeep
-_classes/*
-!_classes/.gitkeep

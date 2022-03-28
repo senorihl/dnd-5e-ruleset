@@ -40,18 +40,8 @@ const buildBackground = (
     content += `---
 layout: page
 title: ${background.name}
-parent: ${background.parent || "Backgrounds"}
-${!!background.parent ? "grand_parent: Backgrounds" : ""}
-${
-  background.variant && background.variant.length > 0
-    ? "has_children: true"
-    : ""
-}
-${
-  background.variant && background.variant.length > 0
-    ? `toc_name: Variants`
-    : ""
-}
+parent: ${background.parent || "All backgrounds"}
+${!background.parent ? "" : "grand_parent: All backgrounds"}
 description: D&D 5th edition ${background.name} details
 permalink: /${fpath.join("/")}/
 ---`;
@@ -182,14 +172,25 @@ permalink: /${fpath.join("/")}/
       if (variant) {
         variant.name = variant.name || `${background.name} variant`;
 
-        buildBackground({
-          ...background,
-          ...variant,
-          parentSlug: background.slug,
-          slug: slugify(variantName),
-          variant: [],
-          parent: background.name,
-        });
+        parts.indexOf("\n\n## Variants") === -1 &&
+          parts.push("\n\n## Variants");
+        parts.push("");
+        parts.push("<hr>");
+        parts.push("");
+        parts.push(
+          buildBackground(
+            {
+              ...background,
+              ...variant,
+              parentSlug: background.slug,
+              slug: slugify(variantName, { remove: /[^\w]/g }),
+              variant: [],
+              parent: background.name,
+            },
+            false,
+            level + 1
+          )
+        );
       } else {
         console.error("missing variant", variantName);
       }
@@ -199,13 +200,16 @@ permalink: /${fpath.join("/")}/
   content += parts.join("\n");
 
   if (emit) {
-    const filename = path.resolve(
+    const dirname = path.resolve(
       __dirname.replace("dist/", ""),
       "..",
       "docs",
-      "_docs",
-      `${fpath.join(" # ")}.md`
+      "_backgrounds"
     );
+    if (!fs.existsSync(dirname)) {
+      fs.mkdirSync(dirname, { recursive: true });
+    }
+    const filename = path.resolve(dirname, `${fpath.slice(1).join(" # ")}.md`);
     fs.writeFileSync(filename, content);
   } else {
     content = content.replace(/^(#+ .*)$/gm, `${"#".repeat(level)}$1`);
@@ -218,32 +222,43 @@ permalink: /${fpath.join("/")}/
 export default function build() {
   console.group("Backgrounds");
 
-  const filename = path.resolve(
-    __dirname.replace("dist/", ""),
-    "..",
-    "docs",
-    "_docs",
-    `backgrounds # index.md`
-  );
+  const slugs = Object.keys(BackgroundList);
 
   const content = `---
 layout: page
-title: Backgrounds
-description: D&D 5th edition background list
-has_children: true
-nav_order: 3
+title: All backgrounds
+description: D&D 5th edition all backgrounds
 permalink: /backgrounds/
+has_children: true
 ---
-# Backgrounds
+
+# All backgrounds
+
+${slugs
+  .map((slug) => {
+    const race = BackgroundList[slug];
+    return `- [${race.name}]({{ '/backgrounds/${slugify(slug, {
+      remove: /[^\w]/g,
+    })}/' | relative_url }})`;
+  })
+  .join("\n")}
 `;
 
+  const dirname = path.resolve(
+    __dirname.replace("dist/", ""),
+    "..",
+    "docs",
+    "_backgrounds"
+  );
+  if (!fs.existsSync(dirname)) {
+    fs.mkdirSync(dirname, { recursive: true });
+  }
+  const filename = path.resolve(dirname, `index.md`);
   fs.writeFileSync(filename, content);
-
-  const slugs = Object.keys(BackgroundList);
 
   slugs.forEach((slug, idx) => {
     const race = BackgroundList[slug];
-    buildBackground({ ...race, slug: slugify(slug) });
+    buildBackground({ ...race, slug: slugify(slug, { remove: /[^\w]/g }) });
   });
 
   console.groupEnd();

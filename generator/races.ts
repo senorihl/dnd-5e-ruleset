@@ -26,10 +26,8 @@ const buildRace = (
     content += `---
 layout: page
 title: ${race.name}
-parent: ${race.parent || "Races"}
-${!!race.parent ? "grand_parent: Races" : ""}
-${race.variants && race.variants.length > 0 ? "has_children: true" : ""}
-${race.variants && race.variants.length > 0 ? "toc_name: Race variants" : ""}
+parent: ${race.parent || "All races"}
+${!race.parent ? "" : "grand_parent: All races"}
 description: D&D 5th edition ${race.name} details
 ${(index && `nav_order: ${index + 1}`) || ""}
 permalink: /${fpath.join("/")}/
@@ -192,13 +190,16 @@ permalink: /${fpath.join("/")}/
   content += parts.join("\n");
 
   if (emit) {
-    const filename = path.resolve(
+    const dirname = path.resolve(
       __dirname.replace("dist/", ""),
       "..",
       "docs",
-      "_docs",
-      `${fpath.join(" # ")}.md`
+      "_races"
     );
+    if (!fs.existsSync(dirname)) {
+      fs.mkdirSync(dirname, { recursive: true });
+    }
+    const filename = path.resolve(dirname, `${fpath.slice(1).join(" # ")}.md`);
     fs.writeFileSync(filename, content);
   } else {
     content = content.replace(/^(#+ .*)$/gm, `${"#".repeat(level)}$1`);
@@ -216,7 +217,7 @@ permalink: /${fpath.join("/")}/
           ...race,
           ...variant,
           parentSlug: race.slug,
-          slug: slugify(variantName),
+          slug: slugify(variantName, { remove: /[^\w]/g }),
           features: { ...race.features, ...variant.features },
           variants: [],
           parent: race.name,
@@ -234,28 +235,42 @@ permalink: /${fpath.join("/")}/
 export default function build() {
   console.group("Races");
 
-  const filename = path.resolve(
-    __dirname.replace("dist/", ""),
-    "..",
-    "docs",
-    "_docs",
-    `races # index.md`
-  );
+  const slugs = Object.keys(RaceList);
 
   const content = `---
 layout: page
-title: Races
-description: D&D 5th edition race list
-has_children: true
-nav_order: 1
+title: All races
+description: D&D 5th edition all races
 permalink: /races/
+has_children: true
 ---
-# Races
+
+# All races
+
+${slugs
+  .map((slug) => {
+    const race = RaceList[slug];
+    return `- [${race.name}]({{ '/races/${slugify(slug, {
+      remove: /[^\w]/g,
+    })}/' | relative_url }})`;
+  })
+  .join("\n")}
 `;
 
+  const dirname = path.resolve(
+    __dirname.replace("dist/", ""),
+    "..",
+    "docs",
+    "_races"
+  );
+
+  if (!fs.existsSync(dirname)) {
+    fs.mkdirSync(dirname, { recursive: true });
+  }
+
+  const filename = path.resolve(dirname, `index.md`);
   fs.writeFileSync(filename, content);
 
-  const slugs = Object.keys(RaceList);
   slugs
     .sort((slugA, slugB) => {
       const raceA = RaceList[slugA];
@@ -267,7 +282,7 @@ permalink: /races/
     })
     .forEach((slug, idx) => {
       const race = RaceList[slug];
-      buildRace({ ...race, slug: slugify(slug) }, idx);
+      buildRace({ ...race, slug: slugify(slug, { remove: /[^\w]/g }) }, idx);
     });
 
   console.groupEnd();

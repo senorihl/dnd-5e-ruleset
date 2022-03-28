@@ -14,14 +14,29 @@ plugins:
   - jekyll-sitemap
 
 collections:
-  docs:
+  races:
+    permalink: "/:collection/:slug/"
+    output: true
+  classes:
+    permalink: "/:collection/:slug/"
+    output: true
+  backgrounds:
+    permalink: "/:collection/:slug/"
+    output: true
+  spells:
     permalink: "/:collection/:slug/"
     output: true
 
 just_the_docs:
   collections:
-    docs:
-      name: Documentation
+    races:
+      name: Races
+    classes:
+      name: Classes
+    backgrounds:
+      name: Backgrounds
+    spells:
+      name: Spells
 
 exclude:
   - "generator/"
