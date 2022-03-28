@@ -4,17 +4,20 @@ title: Minotaur
 parent: Races
 
 
+
 description: D&D 5th edition Minotaur details
+nav_order: 58
+permalink: /races/minotaur/
 ---
 
 # Minotaur
 
 <small>From <a target="_blank" href="https://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica">Guildmasters' Guide to Ravnica</a> (p. 19), <a target="_blank" href="https://dnd.wizards.com/products/tabletop-games/rpg-products/mythic-odysseys-theros">Mythic Odysseys of Theros</a> (p. 22)</small>
 
-**Scores:** +2 Strength, +1 Constitution
 
 ## General information
 
+- **Scores:** +2 Strength, +1 Constitution
 - **Age:** Minotaurs reach adulthood around age 17 and live up to 150 years.
 - **Height:** Minotaurs stand around 6 feet tall (5'4" + 2d8").
 - **Weight:** Minotaurs weigh around 300 pounds (175 + 2d8 × 2d6 lb).

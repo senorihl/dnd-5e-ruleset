@@ -2,7 +2,11 @@
 layout: page
 title: Ranger
 parent: Classes
+
+has_children: true
+toc_name: Ranger Archetype
 description: D&D 5th edition Ranger details
+permalink: /classes/ranger/
 ---
 
 # Ranger

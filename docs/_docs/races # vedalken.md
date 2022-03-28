@@ -4,16 +4,19 @@ title: Vedalken
 parent: Races
 
 
+
 description: D&D 5th edition Vedalken details
+nav_order: 60
+permalink: /races/vedalken/
 ---
 
 # Vedalken
 
 <small>From <a target="_blank" href="https://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica">Guildmasters' Guide to Ravnica</a> (p. 21)</small>
-**Scores:** +2 Intelligence, +1 Wisdom
 
 ## General information
 
+- **Scores:** +2 Intelligence, +1 Wisdom
 - **Age:** Vedalken reach maturity around age 40 and typically live 350 years, with some living up to 500 years.
 - **Height:** Vedalken stand between 6 and 6 and a half feet tall (5'4" + 2d10").
 - **Weight:** Vedalken are slender, weighing around 200 pounds (110 + 2d10 × 2d4 lb).

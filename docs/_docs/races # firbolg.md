@@ -4,17 +4,20 @@ title: Firbolg
 parent: Races
 
 
+
 description: D&D 5th edition Firbolg details
+nav_order: 31
+permalink: /races/firbolg/
 ---
 
 # Firbolg
 
 <small>From <a target="_blank" href="https://dnd.wizards.com/products/tabletop-games/rpg-products/volos-guide-to-monsters">Volo's Guide to Monsters</a> (p. 106), <a target="_blank" href="https://dnd.wizards.com/products/wildemount">Explorer's Guide to Wildemount</a> (p. 170)</small>
 
-**Scores:** +1 Strength, +2 Wisdom
 
 ## General information
 
+- **Scores:** +1 Strength, +2 Wisdom
 - **Age:** Firbolg reach adulthood around 30 and can live for 500 years.
 - **Height:** Firbolg are between 6 and half and 8 feet tall (6'2" + 2d12").
 - **Weight:** Firbolg weigh between 240 and 300 lb (175 + 2d12 × 2d6 lb).

@@ -2,7 +2,11 @@
 layout: page
 title: Sorcerer
 parent: Classes
+
+has_children: true
+toc_name: Sorcerous Origin
 description: D&D 5th edition Sorcerer details
+permalink: /classes/sorcerer/
 ---
 
 # Sorcerer

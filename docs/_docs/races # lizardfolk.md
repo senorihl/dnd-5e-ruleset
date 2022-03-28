@@ -4,16 +4,19 @@ title: Lizardfolk
 parent: Races
 
 
+
 description: D&D 5th edition Lizardfolk details
+nav_order: 36
+permalink: /races/lizardfolk/
 ---
 
 # Lizardfolk
 
 <small>From <a target="_blank" href="https://dnd.wizards.com/products/tabletop-games/rpg-products/volos-guide-to-monsters">Volo's Guide to Monsters</a> (p. 111)</small>
-**Scores:** +2 Constitution, +1 Wisdom
 
 ## General information
 
+- **Scores:** +2 Constitution, +1 Wisdom
 - **Age:** Lizardfolk reach maturity around age 14 and rarely live longer than 60 years.
 - **Height:** Lizardfolk range from 5 to well over 6 feet tall (4'9" + 2d10").
 - **Weight:** Lizardfolk weigh around 200 lb (120 + 2d10 × 2d6 lb).

@@ -4,17 +4,20 @@ title: Bugbear
 parent: Races
 
 
+
 description: D&D 5th edition Bugbear details
+nav_order: 30
+permalink: /races/bugbear/
 ---
 
 # Bugbear
 
 <small>From <a target="_blank" href="https://dnd.wizards.com/products/tabletop-games/rpg-products/volos-guide-to-monsters">Volo's Guide to Monsters</a> (p. 119), <a target="_blank" href="https://dnd.wizards.com/products/tabletop-games/rpg-products/eberron">Eberron: Rising from the Last War</a> (p. 25), <a target="_blank" href="https://dnd.wizards.com/products/wildemount">Explorer's Guide to Wildemount</a> (p. 174)</small>
 
-**Scores:** +2 Strength, +1 Dexterity
 
 ## General information
 
+- **Scores:** +2 Strength, +1 Dexterity
 - **Age:** Bugbears rearch adulthood at age 16 and live up to 80 years.
 - **Height:** Bugbears are between 6 and 8 feet tall (6'0" + 2d12").
 - **Weight:** Bugbears weigh between 250 and 350 lb (200 + 2d12 × 2d6 lb).

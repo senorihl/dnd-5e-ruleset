@@ -4,17 +4,20 @@ title: Goliath
 parent: Races
 
 
+
 description: D&D 5th edition Goliath details
+nav_order: 23
+permalink: /races/goliath/
 ---
 
 # Goliath
 
 <small>From <a target="_blank" href="https://dnd.wizards.com/products/tabletop-games/rpg-products/player%E2%80%99s-companion">Elemental Evil Player's Companion</a> (p. 11), <a target="_blank" href="https://dnd.wizards.com/products/tabletop-games/rpg-products/volos-guide-to-monsters">Volo's Guide to Monsters</a> (p. 108), <a target="_blank" href="https://dnd.wizards.com/products/wildemount">Explorer's Guide to Wildemount</a> (p. 175)</small>
 
-**Scores:** +2 Strength, +1 Constitution
 
 ## General information
 
+- **Scores:** +2 Strength, +1 Constitution
 - **Age:** Goliaths reach adulthood in their late teens and live less than 100 years.
 - **Height:** Goliaths are between 6 and a half and 8 feet tall (6'2" + 2d10").
 - **Weight:** Goliaths weigh between 280 and 340 lb (200 + 2d10 × 2d6 lb).

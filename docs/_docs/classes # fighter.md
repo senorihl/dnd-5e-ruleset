@@ -2,7 +2,11 @@
 layout: page
 title: Fighter
 parent: Classes
+
+has_children: true
+toc_name: Martial Archetype
 description: D&D 5th edition Fighter details
+permalink: /classes/fighter/
 ---
 
 # Fighter

@@ -1,6 +1,8 @@
+#!/usr/bin/env node
 require("@babel/register");
 import path from "path";
 import fs from "fs";
+import { program } from "commander";
 
 const docsDirectoryPath = path.resolve(
   __dirname.replace("dist/", ""),
@@ -9,19 +11,36 @@ const docsDirectoryPath = path.resolve(
   "_docs"
 );
 
-const docsDirectory = fs.opendirSync(docsDirectoryPath);
+program.name(path.relative(process.cwd(), __filename));
+program.option(
+  "--rm",
+  `Delete *.md files in ${path.relative(process.cwd(), docsDirectoryPath)}/**`,
+  false
+);
+program.option("--no-races", "Prevents races generation");
+program.option("--no-classes", "Prevents classes generation");
+program.option("--no-backgrounds", "Prevents backgrounds generation");
 
-let file = docsDirectory.readSync();
+program.parse();
 
-while (file) {
-  if (file.isFile()) {
-    if (file.name.endsWith(".md")) {
-      fs.rmSync(path.resolve(docsDirectoryPath, file.name));
+const options = program.opts();
+
+if (options.rm === true) {
+  const docsDirectory = fs.opendirSync(docsDirectoryPath);
+
+  let file = docsDirectory.readSync();
+
+  while (file) {
+    if (file.isFile()) {
+      if (file.name.endsWith(".md")) {
+        fs.rmSync(path.resolve(docsDirectoryPath, file.name));
+      }
     }
+    file = docsDirectory.readSync();
   }
-  file = docsDirectory.readSync();
 }
 
-import "./generator/races";
-import "./generator/classes";
-import "./generator/webworker";
+options.races === true && require("./generator/races");
+options.classes === true && require("./generator/classes");
+options.backgrounds === true && require("./generator/backgrounds");
+require("./generator/webworker");

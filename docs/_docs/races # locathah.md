@@ -4,17 +4,20 @@ title: Locathah
 parent: Races
 
 
+
 description: D&D 5th edition Locathah details
+nav_order: 62
+permalink: /races/locathah/
 ---
 
 # Locathah
 
-<small>From <a target="_blank" href="https://dnd.wizards.com/products/tabletop-games/digital-only-rpg-products/locathah-rising">Locathah Rising</a> (p. 24)</small>
+<small>From </small>
 
-**Scores:** +2 Strength, +1 Dexterity
 
 ## General information
 
+- **Scores:** +2 Strength, +1 Dexterity
 - **Age:** Locathah mature to adulthood by the age of 10 but have been known to live up to 80 years.
 - **Height:** Locathah stand between 5 and 6 feet tall.
 - **Weight:** Locathah average about 150 pounds.

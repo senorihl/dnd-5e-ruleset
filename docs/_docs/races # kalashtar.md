@@ -4,17 +4,20 @@ title: Kalashtar
 parent: Races
 
 
+
 description: D&D 5th edition Kalashtar details
+nav_order: 65
+permalink: /races/kalashtar/
 ---
 
 # Kalashtar
 
 <small>From <a target="_blank" href="https://dnd.wizards.com/products/tabletop-games/rpg-products/eberron">Eberron: Rising from the Last War</a> (p. 30)</small>
 
-**Scores:** +2 Wisdom, +1 Charisma
 
 ## General information
 
+- **Scores:** +2 Wisdom, +1 Charisma
 - **Age:** Kalashtar reach adulthood in their late teens and live less than 100 years.
 - **Height:** Kalashtar range from 5 and a half to well over 6 feet tall (5'4" + 2d6").
 - **Weight:** Kalashtar weigh around 145 lb (110 + 2d6 × 1d6 lb).

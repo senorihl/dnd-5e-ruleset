@@ -4,17 +4,20 @@ title: Centaur
 parent: Races
 
 
+
 description: D&D 5th edition Centaur details
+nav_order: 56
+permalink: /races/centaur/
 ---
 
 # Centaur
 
 <small>From <a target="_blank" href="https://dnd.wizards.com/products/tabletop-games/rpg-products/guildmasters-guide-ravnica">Guildmasters' Guide to Ravnica</a> (p. 15), <a target="_blank" href="https://dnd.wizards.com/products/tabletop-games/rpg-products/mythic-odysseys-theros">Mythic Odysseys of Theros</a> (p. 19)</small>
 
-**Scores:** +2 Strength, +1 Wisdom
 
 ## General information
 
+- **Scores:** +2 Strength, +1 Wisdom
 - **Age:** Centaurs mature and age at about the same rate as humans.
 - **Height:** Centaurs stand between 6 and 7 feet tall, with their equine bodies reaching about 4 feet at the withers (6'0" + 1d10").
 - **Weight:** Centaurs weigh around 670 lb (600 + 1d10 × 2d12 lb).

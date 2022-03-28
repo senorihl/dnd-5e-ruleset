@@ -2,7 +2,11 @@
 layout: page
 title: Artificer
 parent: Classes
+
+has_children: true
+toc_name: Artificer Specialist
 description: D&D 5th edition Artificer details
+permalink: /classes/artificer/
 ---
 
 # Artificer

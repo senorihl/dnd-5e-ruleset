@@ -2,7 +2,11 @@
 layout: page
 title: Warlock
 parent: Classes
+
+has_children: true
+toc_name: Otherworldly Patron
 description: D&D 5th edition Warlock details
+permalink: /classes/warlock/
 ---
 
 # Warlock

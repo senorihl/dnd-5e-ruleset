@@ -4,17 +4,20 @@ title: Warforged
 parent: Races
 
 
+
 description: D&D 5th edition Warforged details
+nav_order: 70
+permalink: /races/warforged/
 ---
 
 # Warforged
 
 <small>From <a target="_blank" href="https://dnd.wizards.com/products/tabletop-games/rpg-products/eberron">Eberron: Rising from the Last War</a> (p. 36)</small>
 
-**Scores:** +2 Constitution
 
 ## General information
 
+- **Scores:** +2 Constitution and +1 to one other ability score of my choice
 - **Age:** Warforged typical are between two and thirty years old. The maximum warforged lifespan remains a mystery; so far, warforged have shown no signs of deterioration due to age. Warforged are immune to magical aging effects..
 - **Height:** Warforged stand between 6 and 7 feet tall (5'10" + 2d6").
 - **Weight:** Warforged weigh around 300 lb (270 + 2d6 × 4 lb).

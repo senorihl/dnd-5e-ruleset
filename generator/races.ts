@@ -3,6 +3,8 @@ import path from "path";
 // import _ from "lodash";
 import { SourceList, RaceList, RaceSubList } from "dnd-5th-ruleset";
 import type { Race, SourceLocation, Source } from "dnd-5th-ruleset";
+import { toSourceString } from "./utils";
+import slugify from "slugify";
 
 const filename = path.resolve(
   __dirname.replace("dist/", ""),
@@ -19,6 +21,8 @@ layout: page
 title: Races
 description: D&D 5th edition race list
 has_children: true
+nav_order: 1
+permalink: /races/
 ---
 # Races
 `;
@@ -26,12 +30,21 @@ has_children: true
 fs.writeFileSync(filename, content);
 
 const buildRace = (
-  race: Race & { parent?: string },
+  race: Race & {
+    parent?: string;
+    parentSlug?: string;
+    parentTrait?: { [name: string]: string };
+    slug: string;
+  },
+  index: number | null = null,
   emit: boolean = true,
   level: number = 1
 ) => {
   emit && console.group(race.name);
   let content = "";
+  const fpath = ["races"];
+  race.parentSlug && fpath.push(race.parentSlug);
+  fpath.push(race.slug);
 
   if (emit) {
     content += `---
@@ -40,7 +53,10 @@ title: ${race.name}
 parent: ${race.parent || "Races"}
 ${!!race.parent ? "grand_parent: Races" : ""}
 ${race.variants && race.variants.length > 0 ? "has_children: true" : ""}
+${race.variants && race.variants.length > 0 ? "toc_name: Race variants" : ""}
 description: D&D 5th edition ${race.name} details
+${(index && `nav_order: ${index + 1}`) || ""}
+permalink: /${fpath.join("/")}/
 ---
 `;
   }
@@ -48,40 +64,19 @@ description: D&D 5th edition ${race.name} details
   const parts = [`\n# ${race.name}\n`];
 
   if (race.source) {
-    if (Array.isArray(race.source[0])) {
-      parts.push(
-        `<small>From ${race.source
-          .map((e) => {
-            return [
-              SourceList[(e as SourceLocation)[0]],
-              (e as SourceLocation)[1],
-            ] as [Source, number];
-          })
-          .filter(([source]) => !!source)
-          .map(([source, page]) => {
-            if (source.url) {
-              return `<a target="_blank" href="${source.url}">${source.name}</a> (p. ${page})`;
-            }
-            return `${source.name} (p. ${page})`;
-          })
-          .join(", ")}</small>\n`
-      );
-    } else {
-      const source = SourceList[(race.source as SourceLocation)[0]];
-      const page = race.source[1];
-      if (source.url) {
-        parts.push(
-          `<small>From <a target="_blank" href="${source.url}">${source.name}</a> (p. ${page})</small>`
-        );
-      } else {
-        parts.push(`<small>From ${source.name} (p. ${page})</small>`);
-      }
-    }
+    const sourceString = toSourceString(race.source);
+    sourceString && parts.push(sourceString);
   }
 
-  if (race.scores)
+  if (race.age || race.height || race.weight || race.scores) {
+    parts.push("\n## General information\n");
+  }
+
+  if (race.scorestxt) {
+    parts.push(`- **Scores:** ${race.scorestxt}`);
+  } else {
     parts.push(
-      `**Scores:** ${race.scores
+      `- **Scores:** ${race.scores
         .map((current, index) => {
           if (current > 0) {
             switch (index) {
@@ -105,9 +100,6 @@ description: D&D 5th edition ${race.name} details
         .filter((e) => !!e)
         .join(", ")}`
     );
-
-  if (race.age || race.height || race.weight) {
-    parts.push("\n## General information\n");
   }
 
   if (race.age) {
@@ -122,8 +114,6 @@ description: D&D 5th edition ${race.name} details
     parts.push(`- **Weight:** ${race.plural}${race.weight}.`);
   }
 
-  parts.push("\n## Traits\n");
-
   let traits = race.trait
     .split(/\n|\t|\s{2,}/)
     .map((l) => l.trim())
@@ -137,7 +127,7 @@ description: D&D 5th edition ${race.name} details
     traits = traits.map((l) => l.trim()).filter((l) => !!l);
   }
 
-  const traitsObj: { [name: string]: string } = {};
+  const traitsObj: { [name: string]: string } = race.parentTrait || {};
 
   let prev: string | null = null;
   traits.forEach((line) => {
@@ -150,11 +140,15 @@ description: D&D 5th edition ${race.name} details
     }
   });
 
-  parts.push(
-    ...Object.keys(traitsObj).map((name) => {
-      return `- **${name.replace(/[^\w]*(.*)/, "$1")}**: ${traitsObj[name]}`;
-    })
-  );
+  if (Object.keys(traitsObj).length > 0) {
+    parts.push("\n## Traits\n");
+
+    parts.push(
+      ...Object.keys(traitsObj).map((name) => {
+        return `- **${name.replace(/[^\w]*(.*)/, "$1")}**: ${traitsObj[name]}`;
+      })
+    );
+  }
 
   if (
     race.languageProfs ||
@@ -219,44 +213,6 @@ description: D&D 5th edition ${race.name} details
     }
   }
 
-  if (race.variants && race.variants.length > 0) {
-    parts.push(`\n## Variants\n`);
-
-    parts.push(
-      ...race.variants.map((variantName) => {
-        const variant =
-          RaceSubList[
-            `${race.name.toLowerCase()}-${variantName.toLowerCase()}`
-          ];
-        if (variant) {
-          variant.name = variant.name || `${race.name} variant`;
-
-          buildRace({
-            ...race,
-            ...variant,
-            features: { ...race.features, ...variant.features },
-            variants: [],
-            parent: race.name,
-          });
-
-          return buildRace(variant, false, 2).replace(
-            new RegExp(`(#*) ${variant.name}`, "i"),
-            `$1 [${
-              variant.name
-            }]({{ '/races/' | relative_url }}{{ '${variant.name.replace(
-              "'",
-              "’"
-            )}' | slugify }}/)`
-          );
-        } else {
-          console.error("missing variant", variantName);
-        }
-
-        return "";
-      })
-    );
-  }
-
   content += parts.join("\n");
 
   if (emit) {
@@ -265,7 +221,7 @@ description: D&D 5th edition ${race.name} details
       "..",
       "docs",
       "_docs",
-      `races # ${race.name.toLowerCase()}.md`
+      `${fpath.join(" # ")}.md`
     );
     fs.writeFileSync(filename, content);
   } else {
@@ -273,11 +229,47 @@ description: D&D 5th edition ${race.name} details
     content = content.replace(/^(.*)$/gm, "> $1");
   }
 
+  if (race.variants && race.variants.length > 0) {
+    race.variants.forEach((variantName) => {
+      const variant =
+        RaceSubList[`${race.name.toLowerCase()}-${variantName.toLowerCase()}`];
+      if (variant) {
+        variant.name = variant.name || `${race.name} variant`;
+
+        buildRace({
+          ...race,
+          ...variant,
+          parentSlug: race.slug,
+          slug: slugify(variantName),
+          features: { ...race.features, ...variant.features },
+          variants: [],
+          parent: race.name,
+          parentTrait: traitsObj,
+        });
+      } else {
+        console.error("missing variant", variantName);
+      }
+    });
+  }
+
   emit && console.groupEnd();
 
   return content;
 };
 
-Object.values(RaceList).forEach((race) => buildRace(race));
+const slugs = Object.keys(RaceList);
+slugs
+  .sort((slugA, slugB) => {
+    const raceA = RaceList[slugA];
+    const raceB = RaceList[slugB];
+    return (raceA.sortname || raceA.name).toLowerCase() >
+      (raceB.sortname || raceB.name).toLowerCase()
+      ? 1
+      : 0;
+  })
+  .forEach((slug, idx) => {
+    const race = RaceList[slug];
+    buildRace({ ...race, slug: slugify(slug) }, idx);
+  });
 
 console.groupEnd();

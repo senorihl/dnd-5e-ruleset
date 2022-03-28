@@ -2,7 +2,11 @@
 layout: page
 title: Bard
 parent: Classes
+
+has_children: true
+toc_name: Bard College
 description: D&D 5th edition Bard details
+permalink: /classes/bard/
 ---
 
 # Bard

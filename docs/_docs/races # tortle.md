@@ -4,17 +4,20 @@ title: Tortle
 parent: Races
 
 
+
 description: D&D 5th edition Tortle details
+nav_order: 41
+permalink: /races/tortle/
 ---
 
 # Tortle
 
-<small>From <a target="_blank" href="https://dnd.wizards.com/products/tabletop-games/digital-only-rpg-products/tortle-package">Tortle Package</a> (p. 4), <a target="_blank" href="https://dnd.wizards.com/products/wildemount">Explorer's Guide to Wildemount</a> (p. 181)</small>
+<small>From <a target="_blank" href="https://dnd.wizards.com/products/wildemount">Explorer's Guide to Wildemount</a> (p. 181)</small>
 
-**Scores:** +2 Strength, +1 Wisdom
 
 ## General information
 
+- **Scores:** +2 Strength, +1 Wisdom
 - **Age:** Tortles reach adulthood by the age of 15 and live an average of 50 years.
 - **Height:** Tortles stand between 5 and 6 feet tall (4'10" + 2d8").
 - **Weight:** Tortles weigh around 450 lb (400 + 2d8 × 2d4 lb).

@@ -4,7 +4,10 @@ title: Harengon
 parent: Races
 
 
+
 description: D&D 5th edition Harengon details
+nav_order: 95
+permalink: /races/harengon/
 ---
 
 # Harengon
@@ -14,6 +17,7 @@ description: D&D 5th edition Harengon details
 
 ## General information
 
+- **Scores:** +2 to one ability score and +1 to a different score of my choice, -or- +1 to three different scores of my choice
 - **Age:** Harengons typically live to be around 100 years old.
 - **Height:** Harengons vary in size. If you'd like to determine your character's height or weight randomly, consult the Randome Height and Weight table in the PHB, and choose the row in the table that best represents the build you imagine for your character..
 - **Weight:** Harengons vary in size. If you'd like to determine your character's height or weight randomly, consult the Randome Height and Weight table in the PHB, and choose the row in the table that best represents the build you imagine for your character..

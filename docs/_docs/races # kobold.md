@@ -4,16 +4,19 @@ title: Kobold
 parent: Races
 
 
+
 description: D&D 5th edition Kobold details
+nav_order: 35
+permalink: /races/kobold/
 ---
 
 # Kobold
 
 <small>From <a target="_blank" href="https://dnd.wizards.com/products/tabletop-games/rpg-products/volos-guide-to-monsters">Volo's Guide to Monsters</a> (p. 119)</small>
-**Scores:** +2 Dexterity
 
 ## General information
 
+- **Scores:** +2 Dexterity
 - **Age:** Kobolds reach adulthood at age 6 and can live up to 120 years, but rarely do so.
 - **Height:** Kobolds are between 2 and 3 feet tall (2'1" + 2d4").
 - **Weight:** Kobolds weigh between 25 and 35 lb (25 + 2d4 × 1 lb).

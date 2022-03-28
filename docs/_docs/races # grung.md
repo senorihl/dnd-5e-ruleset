@@ -4,17 +4,20 @@ title: Grung
 parent: Races
 
 
+
 description: D&D 5th edition Grung details
+nav_order: 42
+permalink: /races/grung/
 ---
 
 # Grung
 
-<small>From <a target="_blank" href="https://www.dmsguild.com/product/223738/">One Grung Above</a> (p. 4)</small>
+<small>From </small>
 
-**Scores:** +2 Dexterity, +1 Constitution
 
 ## General information
 
+- **Scores:** +2 Dexterity, +1 Constitution
 - **Age:** Grung reach adulthood at the age of one and live around 50 years.
 - **Height:** Grung range from 2 1/2 to 3 1/2 feet tall.
 - **Weight:** Grung weigh around 30 lb.

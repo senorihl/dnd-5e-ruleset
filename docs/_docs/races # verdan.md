@@ -4,16 +4,19 @@ title: Verdan
 parent: Races
 
 
+
 description: D&D 5th edition Verdan details
+nav_order: 61
+permalink: /races/verdan/
 ---
 
 # Verdan
 
 <small>From <a target="_blank" href="https://dnd.wizards.com/products/tabletop-games/rpg-products/acqinc">Acquisitions Incorporated</a> (p. 74)</small>
-**Scores:** +1 Constitution, +2 Charisma
 
 ## General information
 
+- **Scores:** +1 Constitution, +2 Charisma
 - **Age:** Verdan reach adulthood at around the age of 24, and it is thought that they might live to nearly 200 years old. However, because no verdan has died of old age since the race's initial creation, their upper age limits remain subject to speculation..
 - **Height:** Verdan are between 3 and a half and 4 feet tall, plus 2 feet from 5th level onwards.
 

@@ -2,7 +2,11 @@
 layout: page
 title: Monk
 parent: Classes
+
+has_children: true
+toc_name: Monastic Tradition
 description: D&D 5th edition Monk details
+permalink: /classes/monk/
 ---
 
 # Monk

@@ -4,17 +4,20 @@ title: Changeling
 parent: Races
 
 
+
 description: D&D 5th edition Changeling details
+nav_order: 64
+permalink: /races/changeling/
 ---
 
 # Changeling
 
 <small>From <a target="_blank" href="https://dnd.wizards.com/products/tabletop-games/rpg-products/eberron">Eberron: Rising from the Last War</a> (p. 18)</small>
 
-**Scores:** +2 Charisma
 
 ## General information
 
+- **Scores:** +2 Charisma and +1 to one other ability score of my choice
 - **Age:** Changelings mature slightly faster than humans but share a similar lifespan, typically a century or less. While a changeling can transform to conceal their age, the effects of aging affect them similarly to humans.
 - **Height:** Changelings stand between 5 and 6 feet tall (5'1" + 2d4").
 - **Weight:** Changelings weigh around 140 lb (115 + 2d4 × 2d4 lb).

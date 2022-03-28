@@ -2,7 +2,11 @@
 layout: page
 title: Paladin
 parent: Classes
+
+has_children: true
+toc_name: Sacred Oath
 description: D&D 5th edition Paladin details
+permalink: /classes/paladin/
 ---
 
 # Paladin

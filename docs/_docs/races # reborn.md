@@ -4,13 +4,17 @@ title: Reborn
 parent: Races
 
 
+
 description: D&D 5th edition Reborn details
+nav_order: 93
+permalink: /races/reborn/
 ---
 
 # Reborn
 
 <small>From <a target="_blank" href="https://dnd.wizards.com/products/van-richtens-guide-ravenloft">Van Richten's Guide to Ravenloft</a> (p. 21)</small>
 
+- **Scores:** +2 to one ability score and +1 to a different score of my choice, -or- +1 to three different scores of my choice
 
 ## Traits
 

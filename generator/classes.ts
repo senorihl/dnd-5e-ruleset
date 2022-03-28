@@ -1,14 +1,14 @@
 import fs from "fs";
 import path from "path";
-import { ClassList, SourceList } from "dnd-5th-ruleset";
+import slugify from "slugify";
+import { ClassList, ClassSubList } from "dnd-5th-ruleset";
 import type {
-  CClass,
-  SourceLocation,
-  Source,
+  Class,
   ClassFeature,
   ChoiceClassFeature,
   ClassChoice,
 } from "dnd-5th-ruleset";
+import { toSourceString } from "./utils";
 
 const filename = path.resolve(
   __dirname.replace("dist/", ""),
@@ -29,6 +29,8 @@ layout: page
 title: Classes
 description: D&D 5th edition class list
 has_children: true
+nav_order: 2
+permalink: /classes/
 ---
 # Classes
 `;
@@ -36,19 +38,31 @@ has_children: true
 fs.writeFileSync(filename, content);
 
 const buildClass = (
-  cclass: CClass & { parent?: string },
+  cclass: Class & { parent?: string; parentSlug?: string; slug: string },
   emit: boolean = true,
   level: number = 1
 ) => {
   emit && console.group(cclass.name);
   let content = "";
 
+  const fpath = ["classes"];
+  cclass.parentSlug && fpath.push(cclass.parentSlug);
+  fpath.push(cclass.slug);
+
   if (emit) {
     content += `---
 layout: page
 title: ${cclass.name}
-parent: Classes
+parent: ${cclass.parent || "Classes"}
+${!!cclass.parent ? "grand_parent: Classes" : ""}
+${cclass.subclasses && cclass.subclasses.length > 0 ? "has_children: true" : ""}
+${
+  cclass.subclasses && cclass.subclasses.length > 0
+    ? `toc_name: ${cclass.subclasses[0]}`
+    : ""
+}
 description: D&D 5th edition ${cclass.name} details
+permalink: /${fpath.join("/")}/
 ---
 `;
   }
@@ -56,35 +70,8 @@ description: D&D 5th edition ${cclass.name} details
   const parts = [`\n# ${cclass.name}\n`];
 
   if (cclass.source) {
-    if (Array.isArray(cclass.source[0])) {
-      parts.push(
-        `<small>From ${cclass.source
-          .map((e) => {
-            return [
-              SourceList[(e as SourceLocation)[0]],
-              (e as SourceLocation)[1],
-            ] as [Source, number];
-          })
-          .filter(([source]) => !!source)
-          .map(([source, page]) => {
-            if (source.url) {
-              return `<a target="_blank" href="${source.url}">${source.name}</a> (p. ${page})`;
-            }
-            return `${source.name} (p. ${page})`;
-          })
-          .join(", ")}</small>\n`
-      );
-    } else {
-      const source = SourceList[(cclass.source as SourceLocation)[0]];
-      const page = cclass.source[1];
-      if (source.url) {
-        parts.push(
-          `<small>From <a target="_blank" href="${source.url}">${source.name}</a> (p. ${page})</small>`
-        );
-      } else {
-        parts.push(`<small>From ${source.name} (p. ${page})</small>`);
-      }
-    }
+    const sourceString = toSourceString(cclass.source);
+    sourceString && parts.push(sourceString);
   }
 
   parts.push("- **Prerequisites**: " + cclass.prereqs);
@@ -135,20 +122,22 @@ description: D&D 5th edition ${cclass.name} details
     }
   }
 
-  parts.push("\n## Equipment\n");
+  if (cclass.equipment) {
+    parts.push("\n## Equipment\n");
 
-  parts.push(
-    ...cclass.equipment.split(/\n+/gm).map((str) => {
-      str = str.trim();
-      if (/^\w/.test(str)) {
-        return "\n" + str + "\n";
-      } else {
-        return "- " + str.replace(/^([^\w]+)/, "");
-      }
-    })
-  );
+    parts.push(
+      ...cclass.equipment.split(/\n+/gm).map((str) => {
+        str = str.trim();
+        if (/^\w/.test(str)) {
+          return "\n" + str + "\n";
+        } else {
+          return "- " + str.replace(/^([^\w]+)/, "");
+        }
+      })
+    );
+  }
 
-  Object.values(cclass.features)
+  Object.values(cclass.features || {})
     .sort((a, b) => (a.minlevel < b.minlevel ? 1 : 0))
     .forEach((feat: ClassFeature) => {
       parts.indexOf("\n## Features\n") === -1 && parts.push("\n## Features\n");
@@ -156,48 +145,90 @@ description: D&D 5th edition ${cclass.name} details
       parts.push(
         `### ${feat.name} <small>(at level ${feat.minlevel})</small>\n`
       );
-      let prevIsList = false;
-      parts.push(
-        ...feat.description
-          .split(/\n+/gm)
-          .map((str) => {
-            str = str.trim();
-            if (!str) return "";
-            if (/^(\w|\[)/.test(str)) {
-              prevIsList = false;
-              return (prevIsList ? "\n\n" : "\n") + str;
-            } else {
-              prevIsList = true;
-              return "- " + str.replace(/^([^\w]+)/, "");
-            }
+      if (typeof feat.description === "string") {
+        let prevIsList = false;
+        parts.push(
+          ...(feat.description as string)
+            .split(/\n+/gm)
+            .map((str) => {
+              str = str.trim();
+              if (!str) return "";
+              if (/^(\w|\[)/.test(str)) {
+                prevIsList = false;
+                return (prevIsList ? "\n\n" : "\n") + str;
+              } else {
+                prevIsList = true;
+                return "- " + str.replace(/^([^\w]+)/, "");
+              }
+            })
+            .filter((line) => !!line)
+        );
+      } else if (Array.isArray(feat.description)) {
+        parts.push(`\n| Level | Description |`);
+        parts.push(`|:----------------------------|:------------------|`);
+        parts.push(
+          ...feat.description.map((description, index) => {
+            let prevIsList = false;
+            return `| ${index + 1} | ${description
+              .split(/\n+/gm)
+              .map((str) => {
+                str = str.trim();
+                if (!str) return "";
+                if (/^(\w|\[)/.test(str)) {
+                  prevIsList = false;
+                  return (prevIsList ? "<br>" : "") + str;
+                } else {
+                  prevIsList = true;
+                  return "- " + str.replace(/^([^\w]+)/, "");
+                }
+              })
+              .filter((line) => !!line)
+              .join("<br>")} |`;
           })
-          .filter((line) => !!line)
-      );
+        );
+      }
 
       if (featIsChoice(feat)) {
         parts.push("#### Choices");
         parts.push(
           ...feat.choices
             .map((name) => {
-              const key = name.toLowerCase().replace(/\s*\[\d+\]$/, "");
+              const key = !!cclass.parent
+                ? name.toLowerCase()
+                : name.toLowerCase().replace(/\s*\[\d+\]$/, "");
 
-              if (!feat[key]) {
-                console.warn(
-                  "choice not found",
-                  JSON.stringify(key),
-                  "in",
-                  Object.keys(feat)
+              if (feat[key]) {
+                const hasNb = /\s*\[(\d+)\]$/.exec(name.toLowerCase());
+                const nb = hasNb ? Number.parseInt(hasNb[1]) : 1;
+
+                if (nb > 1) return "";
+
+                const choice = feat[key] as ClassChoice;
+                return "- **" + choice.name + "**: " + choice.description;
+              } else if (
+                Object.keys(feat).some((key) =>
+                  key.startsWith(name.toLowerCase())
+                )
+              ) {
+                const choices = Object.keys(feat).filter((key) =>
+                  key.startsWith(name.toLowerCase())
                 );
-                return "";
+
+                if (choices.length === 0) return "";
+
+                const choice = feat[choices[0]] as ClassChoice;
+                return "- **" + choice.name + "**: " + choice.description;
               }
 
-              const hasNb = /\s*\[(\d+)\]$/.exec(name.toLowerCase());
-              const nb = hasNb ? Number.parseInt(hasNb[1]) : 1;
+              console.warn(
+                "choice not found",
+                JSON.stringify(key),
+                `(${name.toLowerCase()})`,
+                "in",
+                Object.keys(feat)
+              );
 
-              if (nb > 1) return "";
-
-              const choice = feat[key] as ClassChoice;
-              return "- **" + choice.name + "**: " + choice.description;
+              return "";
             })
             .filter((str) => !!str),
           "\n\n"
@@ -207,6 +238,26 @@ description: D&D 5th edition ${cclass.name} details
       parts.push("\n\n");
     });
 
+  if (cclass.subclasses && cclass.subclasses.length > 0) {
+    const [label, variants] = cclass.subclasses;
+
+    variants.forEach((variantName) => {
+      const variant = ClassSubList[variantName];
+      if (variant) {
+        variant.name = variant.subname || `${cclass.name} variant`;
+
+        buildClass({
+          ...cclass,
+          ...variant,
+          parentSlug: cclass.slug,
+          slug: slugify(variantName),
+          subclasses: undefined,
+          parent: cclass.name,
+        });
+      }
+    });
+  }
+
   content += parts.join("\n");
 
   if (emit) {
@@ -215,7 +266,7 @@ description: D&D 5th edition ${cclass.name} details
       "..",
       "docs",
       "_docs",
-      `classes # ${cclass.name.toLowerCase()}.md`
+      `${fpath.join(" # ")}.md`
     );
     fs.writeFileSync(filename, content);
   } else {
@@ -228,6 +279,10 @@ description: D&D 5th edition ${cclass.name} details
   return content;
 };
 
-Object.values(ClassList).forEach((race) => buildClass(race));
+const slugs = Object.keys(ClassList);
+slugs.forEach((slug, idx) => {
+  const race = ClassList[slug];
+  buildClass({ ...race, slug: slugify(slug) });
+});
 
 console.groupEnd();

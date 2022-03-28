@@ -2,7 +2,11 @@
 layout: page
 title: Wizard
 parent: Classes
+
+has_children: true
+toc_name: Arcane Tradition
 description: D&D 5th edition Wizard details
+permalink: /classes/wizard/
 ---
 
 # Wizard

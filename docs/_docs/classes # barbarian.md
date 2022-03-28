@@ -2,7 +2,11 @@
 layout: page
 title: Barbarian
 parent: Classes
+
+has_children: true
+toc_name: Primal Path
 description: D&D 5th edition Barbarian details
+permalink: /classes/barbarian/
 ---
 
 # Barbarian

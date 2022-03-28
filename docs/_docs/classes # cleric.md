@@ -2,7 +2,11 @@
 layout: page
 title: Cleric
 parent: Classes
+
+has_children: true
+toc_name: Divine Domain
 description: D&D 5th edition Cleric details
+permalink: /classes/cleric/
 ---
 
 # Cleric

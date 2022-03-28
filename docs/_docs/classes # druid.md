@@ -2,7 +2,11 @@
 layout: page
 title: Druid
 parent: Classes
+
+has_children: true
+toc_name: Druid Circle
 description: D&D 5th edition Druid details
+permalink: /classes/druid/
 ---
 
 # Druid

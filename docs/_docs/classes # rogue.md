@@ -2,7 +2,11 @@
 layout: page
 title: Rogue
 parent: Classes
+
+has_children: true
+toc_name: Roguish Archetype
 description: D&D 5th edition Rogue details
+permalink: /classes/rogue/
 ---
 
 # Rogue

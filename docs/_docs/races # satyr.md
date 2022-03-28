@@ -4,17 +4,20 @@ title: Satyr
 parent: Races
 
 
+
 description: D&D 5th edition Satyr details
+nav_order: 89
+permalink: /races/satyr/
 ---
 
 # Satyr
 
 <small>From <a target="_blank" href="https://dnd.wizards.com/products/tabletop-games/rpg-products/mythic-odysseys-theros">Mythic Odysseys of Theros</a> (p. 24)</small>
 
-**Scores:** +1 Dexterity, +2 Charisma
 
 ## General information
 
+- **Scores:** +1 Dexterity, +2 Charisma
 - **Age:** Satyr mature and age at about the same rate as humans.
 - **Height:** Satyr range from just under 5 feet to about 6 feet in height, with generally slender builds (4'8" + 2d8").
 - **Weight:** Satyr weigh around 145 lbs (100 + 2d8 × 2d4 lb).
