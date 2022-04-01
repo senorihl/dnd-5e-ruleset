@@ -180,7 +180,6 @@ layout: page
 title: ${level > 0 ? `${levelStr} level spells` : "Cantrips"} 
 nav_order: ${level + 1} 
 description: D&D 5th edition spell list of ${level} level
-has_children: true
 permalink: /spells/${levelStr}/
 ---
 # ${level > 0 ? `${levelStr} level spells` : "Cantrips"} 

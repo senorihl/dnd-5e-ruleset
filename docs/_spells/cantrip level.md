@@ -3,7 +3,6 @@ layout: page
 title: Cantrips 
 nav_order: 1 
 description: D&D 5th edition spell list of 0 level
-has_children: true
 permalink: /spells/cantrip/
 ---
 # Cantrips 

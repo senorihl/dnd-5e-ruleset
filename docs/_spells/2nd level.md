@@ -3,7 +3,6 @@ layout: page
 title: 2nd level spells 
 nav_order: 3 
 description: D&D 5th edition spell list of 2 level
-has_children: true
 permalink: /spells/2nd/
 ---
 # 2nd level spells 

@@ -3,7 +3,6 @@ layout: page
 title: 9th level spells 
 nav_order: 10 
 description: D&D 5th edition spell list of 9 level
-has_children: true
 permalink: /spells/9th/
 ---
 # 9th level spells 
