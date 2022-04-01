@@ -27,7 +27,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You hurl a bubble of acid. Choose one creature you can see within range, or choose two creatures you can see within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.
 > 
@@ -51,7 +51,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** 1 rnd
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes 1d8 necrotic damage, and it can't regain hit points until the start of your next turn. Until then, the hand clings to the target.
 > 
@@ -77,7 +77,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.
 > 
@@ -101,7 +101,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Druid](/classes/druid/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }})
 > 
 > Whispering to the spirits of nature, you create one of the following effects within range.
 > 
@@ -131,7 +131,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Warlock](/classes/warlock/)
+> **Classes:** [Warlock]({{ '/classes/warlock/' | relative_url }})
 > 
 > A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage.
 > 
@@ -155,7 +155,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.
 > 
@@ -179,7 +179,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Cleric](/classes/cleric/), [Druid](/classes/druid/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }})
 > 
 > You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends.
 
@@ -201,7 +201,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** 1 h (D)
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Bard](/classes/bard/), [Cleric](/classes/cleric/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Bard]({{ '/classes/bard/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.
 > 
@@ -225,7 +225,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** 1 min (D)
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.
 > 
@@ -251,7 +251,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Bard](/classes/bard/), [Cleric](/classes/cleric/), [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Bard]({{ '/classes/bard/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > This spell repairs a single break or tear in an object you touch, such as broken chain link, two halves of a broken key, a torn clack, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.
 > 
@@ -275,7 +275,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** 1 rnd
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You point your finger toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.
 > 
@@ -299,7 +299,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** 1 min (D)
 > 
-> **Classes:** [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.
 > 
@@ -327,7 +327,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a Constitution saving throw or take 1d12 poison damage.
 > 
@@ -351,7 +351,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** 1 h (D)
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range.
 > 
@@ -387,7 +387,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** 10 min (D)
 > 
-> **Classes:** [Druid](/classes/druid/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }})
 > 
 > A flickering flame appears in your hand. The flame remains there for the duration and harms neither you nor your equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as an action or if you cast it again.
 > 
@@ -413,7 +413,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn.
 > 
@@ -437,7 +437,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Cleric](/classes/cleric/), [Druid](/classes/druid/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }})
 > 
 > You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. It can roll the die before or after the saving throw. The spell then ends.
 
@@ -459,7 +459,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Cleric](/classes/cleric/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }})
 > 
 > Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 radiant damage. The target gains no benefit from cover for this saving throw.
 > 
@@ -483,7 +483,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** 1 min
 > 
-> **Classes:** [Druid](/classes/druid/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }})
 > 
 > The wood of a club or quarterstaff you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a d8. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon.
 
@@ -505,7 +505,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > Lightning springs from your hand to deliver a shock to a creature you try to touch. Make a melee spell attack against the target. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes 1d8 lightning damage, and it can't take reactions until the start of its next turn.
 > 
@@ -529,7 +529,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Cleric](/classes/cleric/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }})
 > 
 > You touch a living creature that has 0 hit points. The creature becomes stable. This spell has no effect on undead or constructs.
 
@@ -551,7 +551,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** 1 min (D)
 > 
-> **Classes:** [Cleric](/classes/cleric/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }})
 > 
 > You manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical effects within range.
 > 
@@ -587,7 +587,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Conc, 1 rnd
 > 
-> **Classes:** [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You extend your hand and point a finger at a target in range. Your magic grants you a brief insight into the target's defenses. On your next turn, you gain advantage on your first attack roll against the target, provided that this spell hasn't ended.
 
@@ -609,7 +609,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Bard](/classes/bard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }})
 > 
 > You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (thought it need not understand you), it must succeed on a Wisdom saving throw or take 1d4 psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.
 > 
@@ -632,7 +632,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** 1 rnd
 > 
-> **Classes:** [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.
 
@@ -653,7 +653,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > For the duration, you have advantage on all Charisma checks directed at one creature of your choice that isn't hostile toward you. When the spell ends, the creature realizes that you used magic to influence its mood and becomes hostile toward you. A creature prone to violence might attack you. Another creature might seek retribution in other ways (at the DM's discretion), depending on the nature of your interaction with it.
 
@@ -674,7 +674,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Druid](/classes/druid/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }})
 > 
 > You create a long, vine-like whip covered in thorns that lashes out at your command toward a creature in range. Make a melee spell attack against the target. If the attack hits, the creature takes 1d6 piercing damage, and if the creature is Large or smaller, you pull the creature up to 10 feet closer to you.
 > 
@@ -698,7 +698,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instant. or 1 h
 > 
-> **Classes:** [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You choose nonmagical flame that you can see within range and that fits within a 5-foot cube. You affect it in one of the following ways.
 > 
@@ -730,7 +730,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You create a bonfire on ground that you can see within range. Until the spell ends, the magic bonfire fills a 5-foot cube. Any creature in the bonfire's space when you cast the spell must succeed on a Dexterity saving throw or take 1d8 fire damage. A creature must also make the saving throw when it moves into the bonfire's space for the first time on a turn or ends its turn there.
 > 
@@ -756,7 +756,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn.
 > 
@@ -780,7 +780,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You seize the air and compel it to create one of the following effects at a point you can see within range.
 > 
@@ -808,7 +808,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** 1 min
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Druid](/classes/druid/), [Warlock](/classes/warlock/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }})
 > 
 > You touch one to three pebbles and imbue them with magic. You or someone else can make a ranged spell attack with one of the pebbles by throwing it or hurling it with a sling. If thrown, it has a range of 60 feet. If someone else attacks with the pebble, that attacker adds your spellcasting ability modifier, not the attacker's, to the attack roll. On a hit, the target takes bludgeoning damage equal to 1d6 + your spellcasting ability modifier. Hit or miss, the spell then ends on the stone.
 > 
@@ -832,7 +832,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instant. or 1 h
 > 
-> **Classes:** [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You choose a portion of dirt or stone that you can see within range and that fits within a 5-foot cube. You manipulate it in one of the following ways.
 > 
@@ -862,7 +862,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instant. or 1 h
 > 
-> **Classes:** [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You choose an area of water that you can see within range and that fits within a 5-foot cube. You manipulate it in one of the following ways.
 > 
@@ -894,7 +894,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Bard](/classes/bard/), [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Bard]({{ '/classes/bard/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You create a burst of thunderous sound that can be heard up to 100 feet away. Each creature within range, other than you, must succeed on a Constitution saving throw or take 1d6 thunder damage.
 > 
@@ -918,7 +918,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** 1 round
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects and then becomes sheathed in booming energy until the start of your next turn. If the target willingly moves 5 feet or more before then, the target takes 1d8 thunder damage, and the spell ends.
 > 
@@ -942,7 +942,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and you can cause green fire to leap from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier.
 > 
@@ -966,7 +966,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You create a lash of lightning energy that strikes at one creature of your choice that you can see within 15 feet of you. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take 1d8 lightning damage if it is within 5 feet of you.
 > 
@@ -990,7 +990,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You create a momentary circle of spectral blades that sweep around you. All other creatures within 5 feet of you must succeed on a Dexterity saving throw or take 1d6 force damage.
 > 
@@ -1013,7 +1013,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You cause a cloud of mites, fleas, and other parasites to appear momentarily on one creature you can see within range. The target must succeed on a Constitution saving throw, or it takes 1d6 poison damage and moves 5 feet in a random direction if it can move and its speed is at least 5 feet. Roll a d4 for the direction:
 > 
@@ -1048,7 +1048,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Druid](/classes/druid/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }})
 > 
 > You channel primal magic to cause your teeth or fingernails to sharpen, ready to deliver a corrosive attack. Make a melee spell attack against one creature within 5 feet of you. On a hit, the target takes 1d10 acid damage. After you make the attack, your teeth or fingernails return to normal.
 > 
@@ -1072,7 +1072,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You point at one creature you can see within range, and the sound of a dolorous bell fills the air around it for a moment. The target must succeed on a Wisdom saving throw or take 1d8 necrotic damage. If the target is missing any of its hit points, it instead takes 1d12 necrotic damage.
 > 
@@ -1095,7 +1095,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Cleric](/classes/cleric/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }})
 > 
 > You utter a divine word, and burning radiance erupts from you. Each creature of your choice that you can see within range must succeed on a Constitution saving throw or take 1d6 radiant damage.
 > 
@@ -1164,7 +1164,7 @@ permalink: /spells/cantrip/
 > 
 > **Duration:** 1 rnd
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must succeed on an Intelligence saving throw or take 1d6 psychic damage and subtract 1d4 from the next saving throw it makes before the end of your next turn.
 > 

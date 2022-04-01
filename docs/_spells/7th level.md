@@ -27,7 +27,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** Conc, 1 h
 > 
-> **Classes:** [Cleric](/classes/cleric/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }})
 > 
 > You summon a celestial of challenge rating 4 or lower, which appears in an unoccupied space that you can see within range. The celestial disappears when it drops to 0 hit points or when the spell ends.
 > 
@@ -53,7 +53,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > A beam of yellow light flashes from your pointing finger, then condenses to linger at a chosen point within range as a glowing bead for the duration. When the spell ends, either because your concentration is broken or because you decide to end it, the bead blossoms with a low roar into an explosion of flame that spreads around corners. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes fire damage equal to the total accumulated damage on a failed save, or half as much damage on a successful one.
 > 
@@ -83,7 +83,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Cleric](/classes/cleric/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }})
 > 
 > You utter a divine word, imbued with the power that shaped the world at the dawn of creation. Choose any number of creatures you can see within range. Each creature that can hear you must make a Charisma saving throw. On a failed save, a creature suffers an effect based on its current hit points.
 > 
@@ -115,7 +115,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** 8 h (D)
 > 
-> **Classes:** [Bard](/classes/bard/), [Cleric](/classes/cleric/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You step into the border regions of the Ethereal Plane, in the area where it overlaps with your current plane. You remain in the Border Ethereal for the duration or until you use your action to dismiss the spell. During this time, you can move in any direction. If you move up or down, every foot of movement costs an extra foot. You can see and hear the plan you originated from, but everything there looks gray, and you can't see anything more than 60 feet away.
 > 
@@ -147,7 +147,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You send negative energy coursing through a creature that you can see within range, causing it searing pain. The target must make a Constitution saving throw. It takes 7d8+30 necrotic damage on a failed save, or half as much damage on a successful one.
 > 
@@ -171,7 +171,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }})
 > 
 > A storm made up of sheets of roaring flame appears in a location you choose within range. The area of the storm consists of up to ten 10-foot cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. Each creature in the area must make Dexterity saving throw. It takes 7d10 fire damage on a failed save, or half as much damage on a successful one.
 > 
@@ -195,7 +195,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** 1 h
 > 
-> **Classes:** [Bard](/classes/bard/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > An immobile, invisible, cube-shaped prison composed of magical force springs into existence around an area you choose within range. The prison can be a cage or a solid box as you choose.
 > 
@@ -227,7 +227,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** 10 days
 > 
-> **Classes:** [Bard](/classes/bard/), [Druid](/classes/druid/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You make terrain in an area up to 1 mile square look, sound, smell, and even feel like some other sort of terrain. The terrain's general shape remains the same, however. Open fields or a road could be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road.
 > 
@@ -255,7 +255,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** 24 h
 > 
-> **Classes:** [Bard](/classes/bard/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You conjure an extradimensional dwelling in range that lasts for the duration. You choose where its one entrance is located. The entrance shimmers faintly and is 5 feet wide and 10 feet tall. You and any creature you designate when you cast the spell can enter the extradimensional dwelling as long as the portal remains open. You can open or close the portal if you are within 30 feet of it. While closed, the portal is invisible.
 > 
@@ -281,7 +281,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Bard](/classes/bard/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You create a sword-shaped plane of force that hovers within range. It lasts for the duration.
 > 
@@ -305,7 +305,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You and up to eight willing creatures who link hands in a circle are transported to a different plane of existence. You can specify a target destination in general terms, such as the City of Brass on the Elemental Plane of Fire or the palace of Dispater on the second level of the Nine Hells, and you appear in or near that destination. If you are trying to reach the City of Brass, for example, you might arrive in its Street of Steel, before its Gate of Ashes, or looking at the city from across the Sea of Fire, at the DM's discretion.
 > 
@@ -331,7 +331,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > Eight multicolored rays of light flash from your hand. Each ray is a different color and has a different power and purpose. Each creature in a 60-foot cone must make a Dexterity saving throw. For each target, roll a d8 to determine which color ray affects it.
 > 
@@ -369,7 +369,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** Conc, 1 day
 > 
-> **Classes:** [Bard](/classes/bard/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You create an illusory copy of yourself that lasts for the duration. The copy can appear at any location within range that you have seen before, regardless of intervening obstacles. The illusion looks and sounds like you but is intangible. If the illusion takes any damage, it disappears, and the spell ends.
 > 
@@ -397,7 +397,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** 1 h
 > 
-> **Classes:** [Bard](/classes/bard/), [Cleric](/classes/cleric/), [Druid](/classes/druid/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }})
 > 
 > You touch a creature and stimulate its natural healing ability. The target regains 4d8 + 15 hit points. For the duration of the spell, the target regains 1 hit point at the start of each of its turns (10 hit points each minute).
 > 
@@ -421,7 +421,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Bard](/classes/bard/), [Cleric](/classes/cleric/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }})
 > 
 > You touch a dead creature that has been dead for no more than a century, that didn't die of old age, and that isn't undead. If its soul is free and willing, the target returns to life with all its hit points.
 > 
@@ -451,7 +451,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > This spell reverses gravity in a 50-foot-radius, 100-foot high cylinder centered on a point within range. All creatures and objects that aren't somehow anchored to the ground in the area fall upward and reach the top of the area when you cast this spell. A creature can make a Dexterity saving throw to grab onto a fixed object it can reach, thus avoiding the fall.
 > 
@@ -477,7 +477,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** Till dispelled
 > 
-> **Classes:** [Wizard](/classes/wizard/)
+> **Classes:** [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > By means of this spell, a willing creature or an object can be hidden away, safe from detection for the duration. When you cast the spell and touch the target, it becomes invisible and can't be targeted by divination spells or perceived through scrying sensors created by the divination of spells.
 > 
@@ -503,7 +503,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** Till dispelled
 > 
-> **Classes:** [Wizard](/classes/wizard/)
+> **Classes:** [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You shape an illusory duplicate of one beast or humanoid that is within range for the entire casting time of the spell. The duplicate is a creature, partially real and formed from ice or snow, and it can take actions and otherwise be affected as a normal creature. It appears to be the same as the original, but it has half the creature's hit point maximum and is formed without any equipment. Otherwise, the illusion uses all the statistics of the creature it duplicates, except that it is a construct.
 > 
@@ -531,7 +531,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** Till triggered
 > 
-> **Classes:** [Bard](/classes/bard/), [Cleric](/classes/cleric/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > When you cast this spell, you inscribe a harmful glyph either on a surface (such as a section of floor, a wall, or a table) or within an object that can be closed to conceal the glyph (such as a book, a scroll, or a treasure chest). If you choose a surface, the glyph can cover an area of the surface no larger than 10 feet in diameter. If you choose an object, that object must remain in its place, if the object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.
 > 
@@ -577,7 +577,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > This spell instantly transports you and up to eight willing creatures of your choice that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be able to fit entirely inside a 10-foot cube, and it can't be held or carried by an unwilling creature. The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The DM rolls d100 and consults the table.
 > 
@@ -631,7 +631,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > A whirlwind howls down to a point that you can see on the ground within range. The whirlwind is a 10-foot-radius, 30-foot-high cylinder centered on that point. Until the spell ends, you can use your action to move the whirlwind up to 30 feet in any direction along the ground. The whirlwind sucks up any Medium or smaller objects that aren't secured to anything and that aren't worn or carried by anyone.
 > 
@@ -656,7 +656,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** 1 h
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > Seven star-like motes of light appear and orbit your head until the spell ends. You can use a bonus action to send one of the motes streaking toward one creature or object within 120 feet of you. When you do so, make a ranged spell attack. On a hit, the target takes 4d12 radiant damage. Whether you hit or miss, the mote is expended. The spell ends early if you expend the last mote.
 > 
@@ -681,7 +681,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You speak a word of power that causes waves of intense pain to assail one creature you can see within range. If the target has 100 hit points or fewer, it is subject to crippling pain. Otherwise, the spell has no effect on it. A target is also unaffected if it is immune to being charmed.
 > 
@@ -706,7 +706,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** 24 h
 > 
-> **Classes:** [Cleric](/classes/cleric/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }})
 > 
 > You cause a temple to shimmer into existence on ground you can see within range. The temple must fit within an unoccupied cube of space, up to 120 feet on each side. The temple remains until the spell ends. It is dedicated to whatever god, pantheon, or philosophy is represented by the holy symbol used in the casting.
 > 
@@ -762,7 +762,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Wizard](/classes/wizard/)
+> **Classes:** [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > While casting the spell, you place a vial of quicksilver in the chest of a life-sized human doll stuffed with ash or dust. You then stitch up the doll and drip your blood on it. At the end of the casting, you tap the doll with a crystal rod, transforming it into a magen clothed in whatever the doll was wearing. The type of magen is chosen by you during the casting of the spell. See appendix C for different kinds of magen and their statistics.
 > 
@@ -788,7 +788,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** 6 hours
 > 
-> **Classes:** [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You and up to eight willing creatures within range fall unconscious for the spell's duration and experience visions of another world on the Material Plane, such as Oerth, Toril, Krynn, or Eberron. If the spell reaches its full duration, the visions conclude with each of you encountering and pulling back a mysterious blue curtain. The spell then ends with you mentally and physically transported to the world that was in the visions.
 > 
@@ -814,7 +814,7 @@ permalink: /spells/7th/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > With a roar, you draw on the magic of dragons to transform yourself, taking on various draconic features. You gain the following benefits until the spell ends:
 > 

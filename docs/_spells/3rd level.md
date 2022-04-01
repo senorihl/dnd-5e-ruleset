@@ -27,7 +27,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Wizard](/classes/wizard/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a skeleton if you chose bones or a zombie if you chose a corpse (the DM has the creature's game statistics).
 > 
@@ -55,7 +55,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Cleric](/classes/cleric/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }})
 > 
 > This spell bestows hope and vitality. Choose any number of creatures within range. For the duration, each target has advantage on Wisdom saving throws and death saving throws, and regains the maximum number of hit points possible from any healing.
 
@@ -77,7 +77,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Bard](/classes/bard/), [Cleric](/classes/cleric/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You touch a creature, and that creature must succeed on a Wisdom saving throw or become cursed for the duration of the spell. When you cast this spell, choose the nature of the curse from the following options.
 > 
@@ -111,7 +111,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** 1 min (D)
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > Roll a d20 at the end of each of your turns for the duration of the spell. On a roll of 11 or higher, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell fails and the casting is wasted if you were already on that plane). At the start of you next turn, and when the spell ends if you are on the Ethereal Plane, you return to an unoccupied space of your choice that you can see within 10 feet of the space you vanished from. If no unoccupied space is available within that range, you appear in the nearest unoccupied space (chosen at random if more than one space is equally near). You can dismiss this spell as an action.
 > 
@@ -135,7 +135,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 10 min
 > 
-> **Classes:** [Druid](/classes/druid/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }})
 > 
 > A storm cloud appears in the shape of a cylinder that is 10 feet tall with a 60-foot radius, centered on a point you can see within range directly above you. The spell fails if you can't see a point in the air where the storm cloud could appear (for example, if you are in a room that can't accommodate the cloud).
 > 
@@ -163,7 +163,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 10 min
 > 
-> **Classes:** [Bard](/classes/bard/), [Cleric](/classes/cleric/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You create an invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The sensor remains in place for the duration, and it can't be attacked or otherwise interacted with. When you cast the spell, you choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As your action, you can switch between seeing and hearing. A creature that can see the sensor (such as a creature benefitting from see invisibility or truesight) sees a luminous, intangible orb about the size of your fist.
 > 
@@ -189,7 +189,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 h
 > 
-> **Classes:** [Druid](/classes/druid/), [Ranger](/classes/ranger/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }})
 > 
 > You summon fey spirits that take the form of beasts and appear in unoccupied spaces that you can see within range. Choose one of the following options for what appears.
 > 
@@ -225,7 +225,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.
 > 
@@ -249,7 +249,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Cleric](/classes/cleric/), [Paladin](/classes/paladin/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Paladin]({{ '/classes/paladin/' | relative_url }})
 > 
 > You create 45 pounds of food and 30 gallons of water on the ground or in containers within range, enough to sustain up to fifteen humanoids or five steeds for 24 hours. The food is bland but nourishing, and spoils if uneaten after 24 hours. The water is clean and doesn't go bad.
 
@@ -271,7 +271,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** 1 h
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Druid](/classes/druid/), [Paladin](/classes/paladin/), [Ranger](/classes/ranger/), [Sorcerer](/classes/sorcerer/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Paladin]({{ '/classes/paladin/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }})
 > 
 > A 60-foot-radius sphere of light spreads out from a point you choose within range. The sphere is bright light and sheds dim light for an additional 60 feet.
 > 
@@ -297,7 +297,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Bard](/classes/bard/), [Cleric](/classes/cleric/), [Druid](/classes/druid/), [Paladin](/classes/paladin/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Bard]({{ '/classes/bard/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Paladin]({{ '/classes/paladin/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > Choose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, the spell ends.
 > 
@@ -321,7 +321,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You project a phantasmal image of a creature's worst fears. Each creature in a 30-foot cone must succeed on a Wisdom saving throw or drop whatever it is holding and become frightened for the duration.
 > 
@@ -345,7 +345,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > A bright streak flashes from your pointing finger to a point you choose within range then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot radius must make a Dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one.
 > 
@@ -371,7 +371,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 10 min
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.
 > 
@@ -395,7 +395,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 h
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You transform a willing creature you touch, along with everything it's wearing and carrying, into a misty cloud for the duration. The spell ends if the creature drops to 0 hit points. An incorporeal creature isn't affected.
 > 
@@ -421,7 +421,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Till triggered
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Bard](/classes/bard/), [Cleric](/classes/cleric/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Bard]({{ '/classes/bard/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > When you cast this spell, you inscribe a glyph that later unleashes a magical effect. You inscribe it either on a surface (such as a table or a section of floor or wall) or within an object that can be closed (such as a book, a scroll, or a treasure chest) to conceal the glyph. The glyph can cover an area no larger than 10 feet in diameter. If the surface or object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.
 > 
@@ -457,7 +457,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > Choose a willing creature that you can see within range. Until the spell ends, the target's speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.
 > 
@@ -481,7 +481,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You create a twisting pattern of colors that weaves through the air inside a 30-foot cube within range. The pattern appears for a moment and vanishes. Each creature in the area who sees the pattern must make a Wisdom saving throw. On a failed save, the creature becomes charmed for the duration. While charmed by this spell, the creature is incapacitated and has a speed of 0.
 > 
@@ -505,7 +505,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** 8 h
 > 
-> **Classes:** [Bard](/classes/bard/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > A 10-foot-radius immobile dome of force springs into existence around and above you and remains stationary for the duration. The spell ends if you leave its area.
 > 
@@ -531,7 +531,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > A stroke of lightning forming a line of 100 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 8d6 lightning damage on a failed save, or half as much damage on a successful one.
 > 
@@ -557,7 +557,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** 1 h
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Paladin](/classes/paladin/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Paladin]({{ '/classes/paladin/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You create a 10-foot-radius, 20-foot-tall cylinder of magical energy centered on a point on the ground that you can see within range. Glowing runes appear wherever the cylinder intersects with the floor or other surface.
 > 
@@ -591,7 +591,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 10 min
 > 
-> **Classes:** [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 20-foot cube. The image appears at a spot that you can see within range and lasts for the duration. It seems completely real, including sounds, smells, and temperature appropriate to the thing depicted. You can't create sufficient heat or cold to cause damage, a sound loud enough to deal thunder damage or deafen a creature, or a smell that might sicken a creature (like a troglodyte's stench).
 > 
@@ -619,7 +619,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Cleric](/classes/cleric/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }})
 > 
 > As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.
 > 
@@ -643,7 +643,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** 8 h
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Druid](/classes/druid/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }})
 > 
 > You step into a stone object or surface large enough to fully contain your body, melding yourself and all the equipment you carry with the stone for the duration. Using your movement, you step into the stone at a point you can touch. Nothing of your presence remains visible or otherwise detectable by nonmagical senses.
 > 
@@ -669,7 +669,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** 8 h
 > 
-> **Classes:** [Bard](/classes/bard/), [Ranger](/classes/ranger/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > For the duration, you hide a target that you touch from divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can't be targeted by any divination magic or perceived through magical scrying sensors.
 
@@ -691,7 +691,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** 1 h (D)
 > 
-> **Classes:** [Wizard](/classes/wizard/)
+> **Classes:** [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > A Large quasi-real, horse-like creature appears on the ground in an unoccupied space of your choice within range. You decide the creature's appearance, but it is equipped with a saddle, bit, and bridle. Any of the equipment created by the spell vanishes in a puff of smoke if it is carried more than 10 feet away from the steed.
 > 
@@ -715,7 +715,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Bard](/classes/bard/), [Druid](/classes/druid/), [Ranger](/classes/ranger/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }})
 > 
 > This spell channels vitality into plants within a specific area. There are two possible uses for the spell, granting either immediate or long-term benefits.
 > 
@@ -743,7 +743,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 h
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Cleric](/classes/cleric/), [Druid](/classes/druid/), [Ranger](/classes/ranger/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > For the duration, the willing creature you touch has resistance to one damage type of your choice - acid, cold, fire, lightning, or thunder.
 
@@ -765,7 +765,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Paladin](/classes/paladin/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Paladin]({{ '/classes/paladin/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's attunement to the object so it can be removed or discarded.
 
@@ -787,7 +787,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Cleric](/classes/cleric/), [Paladin](/classes/paladin/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Paladin]({{ '/classes/paladin/' | relative_url }})
 > 
 > You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can't return to life a creature that has died of old age, nor can it restore any missing body parts.
 
@@ -809,7 +809,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** 1 rnd
 > 
-> **Classes:** [Bard](/classes/bard/), [Cleric](/classes/cleric/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You send a short message of twenty-five words or less to a creature with you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.
 > 
@@ -833,7 +833,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > Until the spell ends, freezing rain and sleet fall in a 20-foot-tall cylinder with a 40-foot radius centered on a point you choose within range. The area is heavily obscured, and exposed flames in the area are doused.
 > 
@@ -859,7 +859,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.
 > 
@@ -887,7 +887,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** 10 min
 > 
-> **Classes:** [Bard](/classes/bard/), [Cleric](/classes/cleric/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }})
 > 
 > You grant the semblance of life and intelligence to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can't be undead. The spell fails if the corpse was the target of this spell within the last 10 days.
 > 
@@ -911,7 +911,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** 10 min
 > 
-> **Classes:** [Bard](/classes/bard/), [Druid](/classes/druid/), [Ranger](/classes/ranger/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }})
 > 
 > You imbue plants within 30 feet of you with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can question plants about events in the spell's area within the past day, gaining information about creatures that have passed, weather, and other circumstances.
 > 
@@ -941,7 +941,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 10 min
 > 
-> **Classes:** [Cleric](/classes/cleric/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }})
 > 
 > You call forth spirits to protect you. They flit around you to a distance of 15 feet for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish.
 > 
@@ -967,7 +967,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You create a 20-foot-radius sphere of yellow, nauseating gas centered on a point within range. The cloud spreads around corners, and its area is heavily obscured. The cloud lingers in the air for the duration.
 > 
@@ -993,7 +993,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** 1 h
 > 
-> **Classes:** [Bard](/classes/bard/), [Cleric](/classes/cleric/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says.
 
@@ -1015,7 +1015,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > The touch of your shadow-wreathed hand can siphon force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes 3d6 necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action.
 > 
@@ -1039,7 +1039,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** 24 h
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Druid](/classes/druid/), [Ranger](/classes/ranger/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > This spell grants up to ten willing creatures you can see within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.
 
@@ -1061,7 +1061,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** 1 h
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Cleric](/classes/cleric/), [Druid](/classes/druid/), [Ranger](/classes/ranger/), [Sorcerer](/classes/sorcerer/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }})
 > 
 > This spell grants the ability to move across any liquid surface - such as water, acid, mud, snow, quicksand, or lava - as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heat). Up to ten willing creatures you can see within range gain this ability for the duration.
 > 
@@ -1085,7 +1085,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Druid](/classes/druid/), [Ranger](/classes/ranger/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }})
 > 
 > A wall of strong wind rises from the ground at a point you choose within range. You can make the wall up to 50 feet long, 15 feet high, and 1 foot thick. You can shape the wall in any way you choose so long as it makes one continuous path along the ground. The wall lasts for the duration.
 > 
@@ -1110,7 +1110,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Paladin](/classes/paladin/)
+> **Classes:** [Paladin]({{ '/classes/paladin/' | relative_url }})
 > 
 > Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain 2d6 hit points.
 
@@ -1131,7 +1131,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Paladin](/classes/paladin/)
+> **Classes:** [Paladin]({{ '/classes/paladin/' | relative_url }})
 > 
 > The next time you hit a creature with a melee weapon attack during this spell's duration, you weapon flares with a bright light, and the attack deals an extra 3d8 radiant damage to the target. Additionally, the target must succeed on a Constitution saving throw or be blinded until the spell ends.
 > 
@@ -1154,7 +1154,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Ranger](/classes/ranger/)
+> **Classes:** [Ranger]({{ '/classes/ranger/' | relative_url }})
 > 
 > You throw a nonmagical weapon or fire a piece of nonmagical ammunition into the air to create a cone of identical weapons that shoot forward and then disappear. Each creature in a 60-foot cone must succeed on a Dexterity saving throw. A creature takes 3d8 damage on a failed save, or half as much damage on a successful one. The damage type is the same as that of the weapon or ammunition used as a component.
 
@@ -1175,7 +1175,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Paladin](/classes/paladin/)
+> **Classes:** [Paladin]({{ '/classes/paladin/' | relative_url }})
 > 
 > Holy power radiates from you in an aura with a 30-foot radius, awakening boldness in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each non-hostile creature in the aura (including you) deals an extra 1d4 radiant damage when it hits with a weapon attack.
 
@@ -1196,7 +1196,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 h
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Paladin](/classes/paladin/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Paladin]({{ '/classes/paladin/' | relative_url }})
 > 
 > A nonmagical weapon you touch becomes a magic weapon. Choose one of the following damage types - acid, cold, fire, lightning, or thunder. For the duration, the weapon has a +1 bonus to attack rolls and deals an extra 1d4 damage of the chosen type when it hits.
 > 
@@ -1219,7 +1219,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** 1 h (D)
 > 
-> **Classes:** [Bard](/classes/bard/), [Cleric](/classes/cleric/), [Druid](/classes/druid/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You touch a willing creature and put it into a cataleptic state that is indistinguishable from death.
 > 
@@ -1242,7 +1242,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Warlock](/classes/warlock/)
+> **Classes:** [Warlock]({{ '/classes/warlock/' | relative_url }})
 > 
 > You open a gateway to the dark between the stars, a region infested with unknown horrors. A 20-foot-radius sphere of blackness and bitter cold appears, centered on a point with range and lasting for the duration. This void is filled with a cacophony of soft whispers and slurping noises that can be heard up to 30 feet away. No light, magical or otherwise, can illuminate the area, and creatures fully within the area are blinded.
 > 
@@ -1265,7 +1265,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Ranger](/classes/ranger/)
+> **Classes:** [Ranger]({{ '/classes/ranger/' | relative_url }})
 > 
 > The next time you make a ranged weapon attack during the spell's duration, the weapon's ammunition, or the weapon itself if it's a thrown weapon, transforms into a bolt of lightning. Make the attack roll as normal. The target takes 4d8 lightning damage on a hit, or half as much damage on a miss, instead of the weapon's normal damage.
 > 
@@ -1293,7 +1293,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > Choose a point you can see on the ground within range. A fountain of churned earth and stone erupts in a 20-foot cube centered on that point. Each creature in that area must make a Dexterity saving throw. A creature takes 3d12 bludgeoning damage on a failed save, or half as much damage on a successful one. Additionally, the ground in that area becomes difficult terrain until cleared. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand.
 > 
@@ -1317,7 +1317,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 h
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Druid](/classes/druid/), [Ranger](/classes/ranger/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You touch a quiver containing arrows or bolts. When a target is hit by a ranged weapon attack using a piece of ammunition drawn from the quiver, the target takes an extra 1d6 fire damage. The spell's magic ends on the piece of ammunition when it hits or misses, and the spell ends when twelve pieces of ammunition have been drawn from the quiver.
 > 
@@ -1341,7 +1341,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 10 min
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You create six tiny meteors in your space. They float in the air and orbit you for the spell's duration. When you cast the spell-and as a bonus action on each of your turns thereafter-you can expend one or two of the meteors, sending them streaking toward a point or points you choose within 120 feet of you. Once a meteor reaches its destination or impacts against a solid surface, the meteor explodes. Each creature within 5 feet of the point where the meteor explodes must make a Dexterity saving throw. A creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one.
 > 
@@ -1365,7 +1365,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You conjure up a wave of water that crashes down on an area within range. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 4d8 bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone. The water then spreads out across the ground in all directions, extinguishing unprotected flames in its area and within 30 feet of it, and then it vanishes.
 
@@ -1387,7 +1387,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 10 min
 > 
-> **Classes:** [Wizard](/classes/wizard/)
+> **Classes:** [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You conjure up a wall of swirling sand on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 10 feet thick, and it vanishes when the spell ends. It blocks line of sight but not movement. A creature is blinded while in the wall's space and must spend 3 feet of movement for every 1 foot it moves there.
 
@@ -1409,7 +1409,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 10 min
 > 
-> **Classes:** [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You conjure up a wall of water on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 1 foot thick, or you can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall vanishes when the spell ends. The wall's space is difficult terrain.
 > 
@@ -1432,7 +1432,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** 10 min
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You make a calming gesture, and up to three willing creatures of your choice that you can see within range fall unconscious for the spell's duration. The spell ends on a target early if it takes damage or someone uses an action to shake or slap it awake. If a target remains unconscious for the full duration, that target gains the benefit of a short rest, and it can't be affected by this spell again until it finishes a long rest.
 > 
@@ -1455,7 +1455,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You reach into the mind of one creature you can see and force it to make an Intelligence saving throw. A creature automatically succeeds if it is immune to being frightened. On a failed save, the target loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies until the spell ends. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success.
 > 
@@ -1478,7 +1478,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Wizard](/classes/wizard/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You sacrifice some of your health to mend another creature's injuries. You take 4d8 necrotic damage, which can't be reduced in any way, and one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take.
 > 
@@ -1501,7 +1501,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 h
 > 
-> **Classes:** [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You utter foul words, summoning demons from the chaos of the Abyss. Roll on the following table to determine what appears.
 > 
@@ -1538,7 +1538,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You teleport yourself to an unoccupied space you can see within range. Immediately after you disappear, a thunderous boom sounds, and each creature within 10 feet of the space you left must make a Constitution saving throw, taking 3d10 thunder damage on a failed save, or half as much damage on a successful one. The thunder can be heard from up to 300 feet away.
 > 
@@ -1563,7 +1563,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** 8 h
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You touch one Tiny, nonmagical object that isn't attached to another object or a surface and isn't being carried by another creature. The target animates and sprouts little arms and legs, becoming a creature under your control until the spell ends or the creature drops to 0 hit points. See the Tiny Servant stat block for its statistics.
 > 
@@ -1590,7 +1590,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** 24 h
 > 
-> **Classes:** [Wizard](/classes/wizard/)
+> **Classes:** [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You conjure a two-story tower made of stone, wood, or similar suitably sturdy materials. The tower can be round or square in shape. Each level of the tower is 10 feet tall and has an area of up to 100 square feet. Access between levels consists of a simple ladder and hatch. Each level takes one of the following forms, chosen by you when you cast the spell:
 > 
@@ -1631,7 +1631,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 h
 > 
-> **Classes:** [Bard](/classes/bard/), [Cleric](/classes/cleric/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > When you need to make sure something gets done, you can't rely on vague promises, sworn oaths, or binding contracts of employment. When you cast this spell, choose one humanoid within range that can see and hear you, and that can understand you. The creature must succeed on a Wisdom saving throw or become charmed by you for the duration. While the creature is charmed in this way, it undertakes to perform any services or activities you ask of it in a friendly manner, to the best of its ability.
 > 
@@ -1658,7 +1658,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > When you cast this spell, you present the gem used as the material component and choose any number of creatures within range that can see you. Each target must succeed on a Wisdom saving throw or be charmed by you until the spell ends, or until you or your companions do anything harmful to it. While charmed in this way, a creature can do nothing but use its movement to approach you in a safe manner. While an affected creature is within 5 feet of you, it cannot move, but simply stares greedily at the gem you present.
 > 
@@ -1681,7 +1681,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** 1 h
 > 
-> **Classes:** [Bard](/classes/bard/), [Cleric](/classes/cleric/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }})
 > 
 > You address allies, staff, or innocent bystanders to exhort and inspire them to greatness, whether they have anything to get excited about or not. Choose up to five creatures within range that can hear you. For the duration, each affected creature gains 5 temporary hit points and has advantage on Wisdom saving throws. If an affected creature is hit by an attack, it has advantage on the next attack roll it makes. Once an affected creature loses the temporary hit points granted by this spell, the spell ends for that creature.
 > 
@@ -1729,7 +1729,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 h
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > For the duration, you or one willing creature you can see within range has resistance to psychic damage, as well as advantage on Intelligence, Wisdom, and Charisma saving throws.
 > 
@@ -1753,7 +1753,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Paladin](/classes/paladin/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Paladin]({{ '/classes/paladin/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You call forth spirits of the dead, which flit around you for the spell's duration. The spirits are intangible and invulnerable.
 > 
@@ -1781,7 +1781,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 h
 > 
-> **Classes:** [Druid](/classes/druid/), [Ranger](/classes/ranger/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You call forth a fey spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Fey Spirit stat block. When you cast the spell, choose a mood: Fuming, Mirthful, or Tricksy. The creature resembles a fey creature of your choice marked by the chosen mood, which determines one of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.
 > 
@@ -1807,7 +1807,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 h
 > 
-> **Classes:** [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You call forth a shadowy spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Shadow Spirit stat block. When you cast the spell, choose an emotion: Fury, Despair, or Fear. The creature resembles a misshapen biped marked by the chosen emotion, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.
 > 
@@ -1833,7 +1833,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 h
 > 
-> **Classes:** [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You call forth an undead spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Undead Spirit stat block. When you cast the spell, choose the creature's form: Ghostly, Putrid, or Skeletal. The spirit resembles an undead creature with the chosen form, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.
 > 
@@ -1859,7 +1859,7 @@ permalink: /spells/3rd/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Ranger](/classes/ranger/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > The billowing flames of a dragon blast from your feet, granting you explosive speed. For the duration, your speed increases by 20 feet and moving doesn't provoke opportunity attacks.
 > 

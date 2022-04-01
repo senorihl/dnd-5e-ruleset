@@ -118,9 +118,9 @@ permalink: /${fpath.join("/")}/
       `**Classes:** ${spell.classes
         ?.map(
           (slug) =>
-            `[${ClassList[slug].name}](/classes/${slugify(slug, {
+            `[${ClassList[slug].name}]({{ '/classes/${slugify(slug, {
               remove: /[^\w]/g,
-            })}/)`
+            })}/' | relative_url }})`
         )
         .join(", ")}`
     );

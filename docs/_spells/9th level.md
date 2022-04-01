@@ -27,7 +27,7 @@ permalink: /spells/9th/
 > 
 > **Duration:** Special (D)
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You and up to eight willing creatures within range project your astral bodies into the Astral Plane (the spell fails and the casting is wasted if you are already on that plane). The material body you leave behind is unconscious and in a state of suspended animation, it doesn't need food or air and doesn't age.
 > 
@@ -59,7 +59,7 @@ permalink: /spells/9th/
 > 
 > **Duration:** 8 h
 > 
-> **Classes:** [Bard](/classes/bard/), [Druid](/classes/druid/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target can't be surprised and has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration.
 > 
@@ -83,7 +83,7 @@ permalink: /spells/9th/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You conjure a portal linking an unoccupied space you can see within range to a precise location on a different plane of existence. The portal is a circular opening, which you can make 5 to 20 feet in diameter. You can orient the portal in any direction you choose. The portal lasts for the duration.
 > 
@@ -111,7 +111,7 @@ permalink: /spells/9th/
 > 
 > **Duration:** Till dispelled
 > 
-> **Classes:** [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You create a magical restraint to hold a creature that you can see within range. The target must succeed on a Wisdom saving throw or be bound by the spell, if it succeeds, it is immune to this spell if you cast it again. While affected by this spell, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Divination spells can't locate or perceive the target.
 > 
@@ -161,7 +161,7 @@ permalink: /spells/9th/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Cleric](/classes/cleric/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }})
 > 
 > A flood of healing energy flows from you into injured creatures around you. You restore up to 700 hit points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell are also cured of all diseases and any effect making them blinded or deafened. This spell has no effect on undead or constructs.
 
@@ -183,7 +183,7 @@ permalink: /spells/9th/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > Blazing orbs of fire plummet to the ground at four different points you can see within range. Each creature in a 40-foot-radius sphere centered on each point you choose must make a Dexterity saving throw. The sphere spreads around corners. A creature takes 20d6 fire damage and 20d6 bludgeoning damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one fiery burst is affected only once.
 > 
@@ -207,7 +207,7 @@ permalink: /spells/9th/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You utter a word of power that can compel one creature you can see within range to die instantly. If the creature you chose has 100 hit points or fewer, it dies. Otherwise, the spell has no effect.
 
@@ -229,7 +229,7 @@ permalink: /spells/9th/
 > 
 > **Duration:** 10 min
 > 
-> **Classes:** [Wizard](/classes/wizard/)
+> **Classes:** [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > A shimmering, multicolored plane of light forms a vertical opaque wall - up to 90 feet long, 30 feet high, and 1 inch thick - entered on a point you can see within range. Alternatively, you can shape the wall into a sphere up to 30 feet in diameter centered on a point you choose within range. The wall remains in place for the duration. If you position the wall so that it passes through a space occupied by a creature, the spell fails, and your action and the spell slot are wasted.
 > 
@@ -271,7 +271,7 @@ permalink: /spells/9th/
 > 
 > **Duration:** Conc, 1 h
 > 
-> **Classes:** [Druid](/classes/druid/), [Wizard](/classes/wizard/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You assume the form of a different creature for the duration. The new form can be any creature with a challenge rating equal to your level or lower. The creature can't be a construct or an undead, and you must have seen the sort of creature at least once. You transform into an average example of that creature, one without any class levels or the Spellcasting trait.
 > 
@@ -303,7 +303,7 @@ permalink: /spells/9th/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Druid](/classes/druid/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }})
 > 
 > A churning storm cloud forms, centered on a point you can see and spreading to a radius of 360 feet. Lightning flashes in the area, thunder booms, and strong winds roar. Each creature under the cloud (no more than 5,000 feet beneath the cloud) when it appears must make a Constitution saving throw. On a failed save, a creature takes 2d6 thunder damage and becomes deafened for 5 minutes.
 > 
@@ -335,7 +335,7 @@ permalink: /spells/9th/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You briefly stop the flow of time for everyone but yourself. No time passes for other creatures, while you take 1d4+1 turns in a row, during which you can use actions and move as normal.
 > 
@@ -359,7 +359,7 @@ permalink: /spells/9th/
 > 
 > **Duration:** Conc, 1 h
 > 
-> **Classes:** [Bard](/classes/bard/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > Choose one creature or nonmagical object that you can see within range. You transform the creature into a different creature, the creature into a nonmagical object, or the object into a creature (the object must be neither worn nor carried by another creature). The transformation lasts for the duration, or until the target drops to 0 hit points or dies. If you concentrate on this spell for the full duration, the transformation lasts until it is dispelled.
 > 
@@ -397,7 +397,7 @@ permalink: /spells/9th/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Druid](/classes/druid/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }})
 > 
 > You touch a creature that has been dead for no longer than 200 years and that died for any reason except old age. If the creature's soul is free and willing, the creature is restored to life with all its hit points.
 > 
@@ -423,7 +423,7 @@ permalink: /spells/9th/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Wizard](/classes/wizard/)
+> **Classes:** [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > Drawing on the deepest fears of a group of creatures, you create illusory creatures in their minds, visible only to them. Each creature in a 30-foot-radius sphere centered on a point of your choice within range must make a Wisdom saving throw. On a failed save, a creature becomes frightened for the duration. The illusion calls on the creature's deepest fears, manifesting its worst nightmares as an implacable threat. At the end of each of the frightened creature's turns, it must succeed on a Wisdom saving throw or take 4d10 psychic damage. On a successful save, the spell ends for that creature.
 
@@ -445,7 +445,7 @@ permalink: /spells/9th/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > Wish is the mightiest spell a mortal creature can cast. By simply speaking aloud, you can alter the very foundations of reality in accord with your desires.
 > 
@@ -482,7 +482,7 @@ permalink: /spells/9th/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Bard](/classes/bard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }})
 > 
 > A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is charmed, frightened, paralyzed, or stunned, the condition ends. If the creature is prone, it can use its reaction to stand up. This spell has no effect on undead or constructs.
 
@@ -503,7 +503,7 @@ permalink: /spells/9th/
 > 
 > **Duration:** Conc, 10 min
 > 
-> **Classes:** [Wizard](/classes/wizard/)
+> **Classes:** [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You are immune to all damage until the spell ends.
 
@@ -524,7 +524,7 @@ permalink: /spells/9th/
 > 
 > **Duration:** Conc, 1 h
 > 
-> **Classes:** [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You transform up to ten creatures of your choice that you can see within range. An unwilling target must succeed on a Wisdom saving throw to resist the transformation. An unwilling shapechanger automatically succeeds on the save.
 > 
@@ -553,7 +553,7 @@ permalink: /spells/9th/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You unleash the power of your mind to blast the intellect of up to ten creatures of your choice that you can see within range. Creatures that have an Intelligence score of 2 or lower are unaffected.
 > 
@@ -623,7 +623,7 @@ permalink: /spells/9th/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You create a blade-shaped planar rift about 3 feet long in an unoccupied space you can see within range. The blade lasts for the duration. When you cast this spell, you can make up to two melee spell attacks with the blade, each one against a creature, loose object, or structure within 5 feet of the blade. On a hit, the target takes 4d12 force damage. This attack scores a critical hit if the number on the d20 is 18 or higher. On a critical hit, the blade deals an extra 8d12 force damage (for a total of 12d12 force damage).
 > 

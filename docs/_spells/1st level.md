@@ -27,7 +27,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 8 h
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Ranger](/classes/ranger/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible.
 > 
@@ -53,7 +53,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 24 h
 > 
-> **Classes:** [Bard](/classes/bard/), [Druid](/classes/druid/), [Ranger](/classes/ranger/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }})
 > 
 > This spell lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast's Intelligence is 4 or higher, the spell fails. Otherwise, the beast must succeed on a Wisdom saving throw or be charmed by you for the spell's duration. If you or one of your companions harms the target, the spell ends.
 > 
@@ -77,7 +77,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Bard](/classes/bard/), [Cleric](/classes/cleric/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }})
 > 
 > Up to three creatures of your choice that you can see within range must make Charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.
 > 
@@ -101,7 +101,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Paladin](/classes/paladin/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Paladin]({{ '/classes/paladin/' | relative_url }})
 > 
 > You bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw.
 > 
@@ -125,7 +125,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.
 > 
@@ -151,7 +151,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 1 h
 > 
-> **Classes:** [Bard](/classes/bard/), [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you.
 > 
@@ -175,7 +175,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 1 rnd
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > A dazzling array of flashing, colored light springs from your hand. Roll 6d10, the total is how many hit points of creatures this spell can effect. Creatures in a 15-foot cone originating from you are affected in ascending order of their current hit points (ignoring unconscious creatures and creatures that can't see).
 > 
@@ -201,7 +201,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 1 rnd
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Paladin](/classes/paladin/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Paladin]({{ '/classes/paladin/' | relative_url }})
 > 
 > You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it.
 > 
@@ -237,7 +237,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 1 h
 > 
-> **Classes:** [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.
 > 
@@ -261,7 +261,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Druid](/classes/druid/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }})
 > 
 > You either create or destroy water.
 > 
@@ -289,7 +289,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Bard](/classes/bard/), [Cleric](/classes/cleric/), [Druid](/classes/druid/), [Paladin](/classes/paladin/), [Ranger](/classes/ranger/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Bard]({{ '/classes/bard/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Paladin]({{ '/classes/paladin/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }})
 > 
 > A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.
 > 
@@ -313,7 +313,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 10 min
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Paladin](/classes/paladin/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Paladin]({{ '/classes/paladin/' | relative_url }})
 > 
 > For the duration, you know if there is an aberration, celestial, elemental, fey, fiend, or undead within 30 feet of you, as well as where the creature is located. Similarly, you know if there is a place of object within 30 feet of you that has been magically consecrated or desecrated. The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.
 
@@ -335,7 +335,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 10 min
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Bard](/classes/bard/), [Cleric](/classes/cleric/), [Druid](/classes/druid/), [Paladin](/classes/paladin/), [Ranger](/classes/ranger/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Bard]({{ '/classes/bard/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Paladin]({{ '/classes/paladin/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.
 > 
@@ -359,7 +359,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 10 min
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Druid](/classes/druid/), [Paladin](/classes/paladin/), [Ranger](/classes/ranger/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Paladin]({{ '/classes/paladin/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }})
 > 
 > For the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you. You also identify the kind of poison, poisonous creature, or disease in each case.
 > 
@@ -383,7 +383,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 1 h (D)
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You make yourself, including your clothing, armor, weapons, and other belongings on your person, look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.
 > 
@@ -409,7 +409,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Paladin](/classes/paladin/)
+> **Classes:** [Paladin]({{ '/classes/paladin/' | relative_url }})
 > 
 > Your prayer empowers you with divine radiance. Until the spell ends, your weapon attacks deal and extra 1d4 radiant damage on a hit.
 
@@ -431,7 +431,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Druid](/classes/druid/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }})
 > 
 > Grasping weeds and vines sprout from the ground in a 20-foot square starting from a point within range. For the duration, these plants turn the ground in the area into difficult terrain.
 > 
@@ -457,7 +457,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 10 min
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > This spell allows you to move at an incredible pace. When you cast this spell, and then as a bonus action on each of your turns until the spell ends, you can take the Dash action.
 
@@ -479,7 +479,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Bard](/classes/bard/), [Druid](/classes/druid/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Bard]({{ '/classes/bard/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }})
 > 
 > Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.
 > 
@@ -503,7 +503,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 1 h
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > Bolstering yourself with a necromantic facsimile of life, you gain 1d4+4 temporary hit points for the duration.
 > 
@@ -527,7 +527,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 1 min
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > Reaction - When you or a creature within 60 feet of you falls Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature.
 
@@ -549,7 +549,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Wizard](/classes/wizard/)
+> **Classes:** [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You gain the service of a familiar, a spirit that takes an animal form you choose - bat, cat, crab, frog (toad), hawk, lizard, octopus, owl, poisonous snake, fish (quipper), rat, raven, sea horse, spider, or weasel. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a celestial, fey or fiend (your choice) instead of a beast.
 > 
@@ -581,7 +581,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 1 h
 > 
-> **Classes:** [Druid](/classes/druid/), [Ranger](/classes/ranger/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.
 > 
@@ -605,7 +605,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Druid](/classes/druid/), [Ranger](/classes/ranger/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }})
 > 
 > Up to ten berries appear in your hand and are infused with magic for the duration. A creature can use its action to eat one berry. Eating a berry restores 1 hit point, and the berry provides enough nourishment to sustain a creature for one day.
 > 
@@ -629,7 +629,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 1 min
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > Slick grease covers the ground in a 10-foot square centered on a point within range and turns it into difficult terrain for the duration.
 > 
@@ -653,7 +653,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 1 rnd
 > 
-> **Classes:** [Cleric](/classes/cleric/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }})
 > 
 > A flash of light streaks toward a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 4d6 radiant damage, and the next attack roll made against this target before the end of your next turn has advantage, thanks to the mystical dim light glittering on the target until then.
 > 
@@ -677,7 +677,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Bard](/classes/bard/), [Cleric](/classes/cleric/), [Druid](/classes/druid/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }})
 > 
 > A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.
 > 
@@ -701,7 +701,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Warlock](/classes/warlock/)
+> **Classes:** [Warlock]({{ '/classes/warlock/' | relative_url }})
 > 
 > You point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature must make a Dexterity saving throw. It takes 2d10 fire damage on a failed save, or half as much damage on a successful one.
 > 
@@ -725,7 +725,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Bard](/classes/bard/), [Paladin](/classes/paladin/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Paladin]({{ '/classes/paladin/' | relative_url }})
 > 
 > A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.
 > 
@@ -749,7 +749,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 1 h
 > 
-> **Classes:** [Ranger](/classes/ranger/)
+> **Classes:** [Ranger]({{ '/classes/ranger/' | relative_url }})
 > 
 > You choose a creature you can see within range and mystically mark it as your quarry. Until the spell ends, you deal an extra 1d6 damage to the target whenever you hit it with a weapon attack, and you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it. If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to mark a new creature.
 > 
@@ -773,7 +773,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Bard](/classes/bard/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Bard]({{ '/classes/bard/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You choose one object that you must touch throughout the casting of the spell. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it.
 > 
@@ -797,7 +797,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 10 days
 > 
-> **Classes:** [Bard](/classes/bard/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You write on parchment, paper, or some other suitable writing material and imbue it with a potent illusion that lasts for the duration.
 > 
@@ -825,7 +825,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Cleric](/classes/cleric/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }})
 > 
 > Make a melee spell attack against a creature you can reach. On a hit, the target takes 3d10 necrotic damage.
 > 
@@ -849,7 +849,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 1 min
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Druid](/classes/druid/), [Ranger](/classes/ranger/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You touch a creature. The creature's jump distance is tripled until the spell ends.
 
@@ -871,7 +871,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 1 h
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Bard](/classes/bard/), [Druid](/classes/druid/), [Ranger](/classes/ranger/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Bard]({{ '/classes/bard/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You touch a creature. The target's speed increases by 10 feet until the spell ends.
 > 
@@ -895,7 +895,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 8 h (D)
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You touch a willing creature who isn't wearing armor, and a protective magical force surrounds it until the spell ends. The target's base AC becomes 13 + its Dexterity modifier. The spell ends it if the target dons armor or if you dismiss the spell as an action.
 
@@ -917,7 +917,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4+1 force damage to its target. The darts all strike simultaneously and you can direct them to hit one creature or several.
 > 
@@ -941,7 +941,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 10 min
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Paladin](/classes/paladin/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Paladin]({{ '/classes/paladin/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > Until the spell ends, one willing creature you touch is protected against certain types of creatures - aberrations, celestials, elementals, fey, fiends, and undead.
 > 
@@ -965,7 +965,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Cleric](/classes/cleric/), [Druid](/classes/druid/), [Paladin](/classes/paladin/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Paladin]({{ '/classes/paladin/' | relative_url }})
 > 
 > All nonmagical food and drink within a 5-foot-radius sphere centered on a point of your choice within range is purified and rendered free of poison and disease.
 
@@ -987,7 +987,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 1 min
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Cleric](/classes/cleric/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Cleric]({{ '/classes/cleric/' | relative_url }})
 > 
 > You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from area effects, such as the explosion of a fireball.
 > 
@@ -1011,7 +1011,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 1 rnd
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.
 
@@ -1033,7 +1033,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 10 min
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Paladin](/classes/paladin/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Paladin]({{ '/classes/paladin/' | relative_url }})
 > 
 > A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.
 
@@ -1055,7 +1055,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 10 min
 > 
-> **Classes:** [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot cube. The image appears at a spot within range and lasts for the duration. The image is purely visual, it isn't accompanied by sound, smell, or other sensory effects.
 > 
@@ -1081,7 +1081,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 1 min
 > 
-> **Classes:** [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > This spell sends creatures into a magical slumber. Roll 5d8, the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures).
 > 
@@ -1109,7 +1109,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 10 min
 > 
-> **Classes:** [Bard](/classes/bard/), [Druid](/classes/druid/), [Ranger](/classes/ranger/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }})
 > 
 > You gain the ability to comprehend and verbally communicate with beasts for the duration. The knowledge and awareness of many beasts is limited by their intelligence, but at minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the DM's discretion.
 
@@ -1131,7 +1131,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Bard](/classes/bard/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > A creature of your choice that you can see within range perceives everything as hilariously funny and falls into fits of laugher if this spell affects it. The target must succeed on a Wisdom saving throw of fall prone, becoming incapacitated and unable to stand up for the duration. A creature with an Intelligence score of 4 or less isn't affected.
 > 
@@ -1155,7 +1155,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 1 h
 > 
-> **Classes:** [Wizard](/classes/wizard/)
+> **Classes:** [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > This spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration, and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground.
 > 
@@ -1181,7 +1181,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Bard](/classes/bard/), [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed.
 > 
@@ -1207,7 +1207,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 1 h
 > 
-> **Classes:** [Bard](/classes/bard/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > This spell creates an invisible, mindless, shapeless, Medium force that performs simple tasks at your command until the spell ends. The servant springs into existence in an unoccupied space on the ground within range. It has AC 10, 1 hit point, and a Strength of 2, and it can't attack. If it drops to 0 hit points, the spell ends.
 > 
@@ -1232,7 +1232,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 1 h
 > 
-> **Classes:** [Warlock](/classes/warlock/)
+> **Classes:** [Warlock]({{ '/classes/warlock/' | relative_url }})
 > 
 > A protective magical force surrounds you, manifesting as a spectral frost that covers you and your gear. You gain 5 temporary hit points for the duration. If a creature hits you with a melee attack while you have these hit points, the creature takes 5 cold damage.
 > 
@@ -1255,7 +1255,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Warlock](/classes/warlock/)
+> **Classes:** [Warlock]({{ '/classes/warlock/' | relative_url }})
 > 
 > You invoke the power of Hadar, the Dark Hunger. Tendrils of dark energy erupt from you and batter all creatures within 10 feet of you. Each creature in that area must make a Strength saving throw. On a failed save, a target takes 2d6 necrotic damage and can't take reactions until its next turn. On a successful save, the creature takes half damage, but suffers no other effect.
 > 
@@ -1278,7 +1278,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You hurl a 4-inch-diameter sphere of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, poison, or thunder for the type of orb you create, and then make a ranged spell attack against the target. If the attack hits, the creature takes 3d8 damage of the type you chose.
 > 
@@ -1301,7 +1301,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Paladin](/classes/paladin/)
+> **Classes:** [Paladin]({{ '/classes/paladin/' | relative_url }})
 > 
 > You attempt to compel a creature into a duel. One creature that you can see within range must make a Wisdom saving throw. On a failed save, the creature is drawn to you, compelled by your divine demand. For the duration, it has disadvantage on attack rolls against creatures other than you, and must make a Wisdom saving throw each time it attempts to move to a space that is more than 30 feet away from you, if it succeeds on this saving throw, this spell doesn't restrict the target's movement for that turn.
 > 
@@ -1324,7 +1324,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Bard](/classes/bard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }})
 > 
 > You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes 3d6 psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn't have to move away. A deafened creature automatically succeeds on the save.
 > 
@@ -1347,7 +1347,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Ranger](/classes/ranger/)
+> **Classes:** [Ranger]({{ '/classes/ranger/' | relative_url }})
 > 
 > The next time you hit a creature with a weapon attack before this spell ends, a writhing mass of thorny vines appears at the point of impact, and the target must succeed on a Strength saving throw or be restrained by the magical vines until the spell ends. A Large or larger creature has advantage on this saving throw. If the target succeeds on the save, the vines shrivel away.
 > 
@@ -1372,7 +1372,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Ranger](/classes/ranger/)
+> **Classes:** [Ranger]({{ '/classes/ranger/' | relative_url }})
 > 
 > The next time you hit a creature with a ranged weapon attack before the spell ends, this spell creates a rain of thorns that sprouts from your ranged weapon or ammunition. In addition to the normal effect of the attack, the target of the attack and each creature within 5 feet of it must make a Dexterity saving throw. A creature takes 1d10 piercing damage on a failed save, or half as much damage on a successful one.
 > 
@@ -1395,7 +1395,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 1 h
 > 
-> **Classes:** [Warlock](/classes/warlock/)
+> **Classes:** [Warlock]({{ '/classes/warlock/' | relative_url }})
 > 
 > You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 necrotic damage to the target whenever you hit it with an attack. Also, choose one ability when you cast the spell. The target has disadvantage on ability checks made with the chosen ability.
 > 
@@ -1422,7 +1422,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > A ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 poison damage and must make a Constitution saving throw. On a failed save, it is also poisoned until the end of your next turn.
 > 
@@ -1445,7 +1445,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Paladin](/classes/paladin/)
+> **Classes:** [Paladin]({{ '/classes/paladin/' | relative_url }})
 > 
 > The next time you hit a creature with a melee weapon attack during the spell's duration, your weapon flares with white-hot intensity, and the attack deals an extra 1d6 fire damage to the target and causes the target to ignite in flames. At the start of each of its turns until the spell ends, the target must make a Constitution saving throw. On a failed save, it takes 1d6 fire damage. On a successful save, the spell ends. If the target or a creature within 5 feet of it uses an action to put out the flames, or if some other effect douses the flames (such as the target being submerged in water), the spell ends.
 > 
@@ -1468,7 +1468,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Paladin](/classes/paladin/)
+> **Classes:** [Paladin]({{ '/classes/paladin/' | relative_url }})
 > 
 > The first time you hit with a melee weapon attack during this spell's duration, your weapon rings with thunder that is audible within 300 feet of you, and the attack deals an extra 2d6 thunder damage to the target. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and knocked prone.
 
@@ -1489,7 +1489,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > A beam of crackling, blue energy lances out toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes 1d12 lightning damage, and on each of your turns for the duration, you can use your action to deal 1d12 lightning damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you.
 > 
@@ -1512,7 +1512,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Paladin](/classes/paladin/)
+> **Classes:** [Paladin]({{ '/classes/paladin/' | relative_url }})
 > 
 > The next time you hit with a melee weapon attack during this spell's duration, your attack deals an extra 1d6 psychic damage. Additionally, if the target is a creature, it must make a Wisdom saving throw or be frightened of you until the spell ends. As an action, the creature can make a Wisdom check against your spell save DC to steel its resolve and end this spell.
 
@@ -1534,7 +1534,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 1 rnd
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Druid](/classes/druid/), [Ranger](/classes/ranger/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 damage of the triggering type, and the spell ends.
 > 
@@ -1558,7 +1558,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 10 min
 > 
-> **Classes:** [Druid](/classes/druid/), [Ranger](/classes/ranger/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }})
 > 
 > You establish a telepathic link with one beast you touch that is friendly to you or charmed by you. The spell fails if the beast's Intelligence is 4 or higher. Until the spell ends, the link is active while you and the beast are within line of sight of each other. Through the link, the beast can understand your telepathic messages to it, and it can telepathically communicate simple emotions and concepts back to you. While the link is active, the beast gains advantage on attack rolls against any creature within 5 feet of you that you can see.
 
@@ -1580,7 +1580,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > Choose one object weighing 1 to 5 pounds within range that isn't being worn or carried. The object flies in a straight line up to 90 feet in a direction you choose before falling to the ground, stopping early if it impacts against a solid surface. If the object would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the object strikes the target and stops moving. When the object strikes something, the object and what it strikes each take 3d8 bludgeoning damage.
 > 
@@ -1604,7 +1604,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Bard](/classes/bard/), [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You cause a tremor in the ground within range. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes 1d6 bludgeoning damage and is knocked prone. If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand.
 > 
@@ -1628,7 +1628,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Druid](/classes/druid/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Druid]({{ '/classes/druid/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 cold damage.
 > 
@@ -1651,7 +1651,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You awaken the sense of mortality in one creature you can see within range. A construct or an undead is immune to this effect. The target must succeed on a Wisdom saving throw or become frightened of you until the spell ends. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 > 
@@ -1674,7 +1674,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Cleric](/classes/cleric/), [Paladin](/classes/paladin/)
+> **Classes:** [Cleric]({{ '/classes/cleric/' | relative_url }}), [Paladin]({{ '/classes/paladin/' | relative_url }})
 > 
 > You perform a special religious ceremony that is infused with magic. When you cast the spell, choose one of the following rites, the target of which must be within 10 feet of you throughout the casting.
 > 
@@ -1708,7 +1708,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Sorcerer](/classes/sorcerer/)
+> **Classes:** [Sorcerer]({{ '/classes/sorcerer/' | relative_url }})
 > 
 > You hurl an undulating, warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 + 1d6 damage. Choose one of the d8s. The number rolled on that die determines the attack's damage type, as shown below.
 > 
@@ -1753,7 +1753,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 8 h, till trigger
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Druid](/classes/druid/), [Ranger](/classes/ranger/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Druid]({{ '/classes/druid/' | relative_url }}), [Ranger]({{ '/classes/ranger/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > As you cast this spell, you use the rope to create a circle with a 5-foot radius on the ground or the floor. When you finish casting, the rope disappears and the circle becomes a magic trap.
 > 
@@ -1782,7 +1782,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Ranger](/classes/ranger/)
+> **Classes:** [Ranger]({{ '/classes/ranger/' | relative_url }})
 > 
 > You move like the wind. Until the spell ends, your movement doesn't provoke opportunity attacks.
 > 
@@ -1805,7 +1805,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** 8 hours
 > 
-> **Classes:** [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Warlock](/classes/warlock/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Warlock]({{ '/classes/warlock/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > Do you need to squeeze a few more gold pieces out of a merchant as you try to sell that weird octopus statue you liberated from the chaos temple? Do you need to downplay the worth of some magical assets when the tax collector stops by? Distort value has you covered.
 > 
@@ -1830,7 +1830,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Wizard](/classes/wizard/)
+> **Classes:** [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > Any apprentice wizard can cast a boring old magic missile. Sure, it always strikes its target. Yawn. Do away with the drudgery of your grandfather's magic with this improved version of the spell, as used by Jim Darkmagic!
 > 
@@ -1902,7 +1902,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Wizard](/classes/wizard/)
+> **Classes:** [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > Freezing cold blasts from your fingertips in a 15-foot cone. Each creature in that area must make a Constitution saving throw, taking 2d8 cold damage on a failed save, or half as much damage on a successful one.
 > 
@@ -1928,7 +1928,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Conc, 1 min
 > 
-> **Classes:** [Artificer](/classes/artificer/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Artificer]({{ '/classes/artificer/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > A stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell's duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes 2d4 acid damage at start of each of its turns.
 > 
@@ -1952,7 +1952,7 @@ permalink: /spells/1st/
 > 
 > **Duration:** Instantaneous
 > 
-> **Classes:** [Bard](/classes/bard/), [Sorcerer](/classes/sorcerer/), [Wizard](/classes/wizard/)
+> **Classes:** [Bard]({{ '/classes/bard/' | relative_url }}), [Sorcerer]({{ '/classes/sorcerer/' | relative_url }}), [Wizard]({{ '/classes/wizard/' | relative_url }})
 > 
 > You magically distract the triggering creature and turn its momentary uncertainty into encouragement for another creature. The triggering creature must reroll the d20 and use the lower roll.
 > 
