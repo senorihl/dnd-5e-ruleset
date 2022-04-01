@@ -27,6 +27,9 @@ collections:
   spells:
     permalink: "/:collection/:slug/"
     output: true
+  equipments:
+    permalink: "/:collection/:slug/"
+    output: true
 
 just_the_docs:
   collections:
@@ -38,6 +41,8 @@ just_the_docs:
       name: Backgrounds
     spells:
       name: Spells
+    equipments:
+      name: Equipments
 
 exclude:
   - "generator/"

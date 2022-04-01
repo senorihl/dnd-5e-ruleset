@@ -1,3 +1,4 @@
+export type AbilityArray<T> = [str: T, dex: T, con: T, int: T, wis: T, cha: T];
 export type ArrayAble<T> = T | Array<T>;
 export type LevelArray<T> = [
   T,

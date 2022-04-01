@@ -8,6 +8,13 @@ import { Source } from "./source";
 export * from "./source";
 import { Spell } from "./spell";
 export * from "./spell";
+import { Armor } from "./armor";
+export * from "./armor";
+import { Weapon } from "./weapon";
+export * from "./weapon";
+import { Gear, Pack, MagicItem, Ammunition } from "./gear";
+export * from "./gear";
+export * from "./common";
 declare module "dnd-5th-ruleset" {
   const SourceList: { [key: string]: Source };
   const RaceList: { [key: string]: Race };
@@ -18,4 +25,11 @@ declare module "dnd-5th-ruleset" {
   const BackgroundSubList: { [key: string]: Background };
   const BackgroundFeatureList: { [key: string]: BackgroundFeature };
   const SpellsList: { [key: string]: Spell };
+  const ArmourList: { [key: string]: Armor };
+  const WeaponsList: { [key: string]: Weapon };
+  const ToolsList: { [key: string]: Gear };
+  const PacksList: { [key: string]: Pack };
+  const GearList: { [key: string]: Gear };
+  const MagicItemsList: { [key: string]: MagicItem };
+  const AmmoList: { [key: string]: Ammunition };
 }
