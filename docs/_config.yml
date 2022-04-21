@@ -29,6 +29,9 @@ collections:
   equipments:
     permalink: "/:collection/:slug/"
     output: true
+  feats:
+    permalink: "/:collection/:slug/"
+    output: true
 
 just_the_docs:
   collections:
@@ -42,6 +45,8 @@ just_the_docs:
       name: Spells
     equipments:
       name: Equipments
+    feats:
+      name: Feats
 
 exclude:
   - "generator/"

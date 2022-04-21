@@ -8,6 +8,8 @@ import { Source } from "./source";
 export * from "./source";
 import { Spell } from "./spell";
 export * from "./spell";
+import { Feat } from "./feat";
+export * from "./feat";
 import { Armor } from "./armor";
 export * from "./armor";
 import { Weapon } from "./weapon";
@@ -32,4 +34,5 @@ declare module "dnd-5th-ruleset" {
   const GearList: { [key: string]: Gear };
   const MagicItemsList: { [key: string]: MagicItem };
   const AmmoList: { [key: string]: Ammunition };
+  const FeatsList: { [key: string]: Feat };
 }

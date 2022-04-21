@@ -8,6 +8,8 @@ import classes from "./generator/classes";
 import backgrounds from "./generator/backgrounds";
 import spells from "./generator/spells";
 import equipments from "./generator/equipments";
+import feats from "./generator/feats";
+import summary from "./generator/summary";
 
 const docsDirectoryPath = path.resolve(
   __dirname.replace("dist/", ""),
@@ -29,6 +31,7 @@ program.option("--no-classes", "Prevents classes generation");
 program.option("--no-backgrounds", "Prevents backgrounds generation");
 program.option("--no-spells", "Prevents spells generation");
 program.option("--no-equipments", "Prevents equipments generation");
+program.option("--no-feats", "Prevents feats generation");
 program.option("--no-worker", "Prevents web worker generation");
 
 program.parse();
@@ -47,6 +50,7 @@ if (options.rm === true) {
         "_spells",
         "_docs",
         "_races",
+        "_feats",
         "_classes",
         "_backgrounds",
         "_equipments",
@@ -80,3 +84,5 @@ options.classes === true && classes();
 options.backgrounds === true && backgrounds();
 options.spells === true && spells();
 options.equipments === true && equipments();
+options.feats === true && feats();
+summary();
