@@ -1,0 +1,15 @@
+docs/
+src/
+modules/
+generator/
+.vscode/
+.github/
+.prettierignore
+.prettierrc.json
+.gitmodules
+.babelrc.js
+create-docs.ts
+create-ruleset.js
+rollup.config.js
+tsconfig.json
+tsconfig.utils.json
