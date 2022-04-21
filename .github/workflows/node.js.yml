@@ -44,8 +44,8 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: 🛠️ Build module
         run: yarn build
-      - name: 🎯 Run tests
-        run: yarn jest
+#      - name: 🎯 Run tests
+#        run: yarn jest
       - name: 🔍 Getting current version
         id: package-version
         run: echo "::set-output name=version::$(cat package.json | grep version | cut -d \" -f 4)"
@@ -53,4 +53,4 @@ jobs:
         name: Deploy to NPM (${{ steps.package-version.outputs.version }}-${{ github.sha }}.0)
         run: yarn version --new-version ${{ steps.package-version.outputs.version }}-${{ github.sha }}.0 --no-git-tag-version && yarn publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GH_ACTION }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
